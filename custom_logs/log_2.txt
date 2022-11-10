@@ -1,0 +1,2 @@
+First C# task was completed by writing codes of course video from YouTube [1]
+[1] Kodluyoruz, https://youtu.be/s7o7-MawYZg, 8 May 2021.

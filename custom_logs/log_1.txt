@@ -1,0 +1,10 @@
+Local repository was created.
+A video about working with different project in one solution, was watched on YouTube [1].
+Range and precision values of "double" and "decimal" types, were not understood in a document of Microsoft [2].
+By using "Double.MaxValue" and "Decimal.MaxValue" fields "1,7976931348623157E+308" value for "double" and "79228162514264337593543950335" value for "decimal", were obtained while testing.
+Usage of Euler's number was understood in a webpage [3].
+In Stack Overflow [4], an explanation about the issue, was found but it was not understood completely.
+[1] Lars Bilde, https://youtu.be/Y3Y2_4CYFyw, 7 August 2016.
+[2] https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/floating-point-numeric-types, 29 September 2022.
+[3] Chris Deziel, https://sciencing.com/mean-math-6869429.html, 20 December 2020.
+[4] Eric Lippert, https://stackoverflow.com/questions/53107812/why-is-decimal-more-precise-than-double-if-it-has-a-shorter-range-c-sharp, 2 November 2018.
