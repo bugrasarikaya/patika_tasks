@@ -1,0 +1,2 @@
+Fourth task was completed by writing code of tutorial in Patika.dev [1].
+[1] https://app.patika.dev/courses/csharp-101/1-try-catch-finally-ve-mantiksal-hatalar
