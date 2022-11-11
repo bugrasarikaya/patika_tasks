@@ -1,0 +1,2 @@
+Fifth task was completed by writing code of tutorial in Patika.dev [1].
+[1] https://app.patika.dev/courses/csharp-101/1-if-else-yapisi-ve-ternary-if
