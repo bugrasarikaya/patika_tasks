@@ -1,0 +1,29 @@
+To prevent CS8600 warning, a question mark was added next to "string" keyword by benefiting a Reddit answer [1].
+A method for taking 2 numbers from result of "Console.ReadLine", which is using "Split", was found in a Stack Overflow webpage [2].
+"FormatException" phrase was found in a webpage of Stack Overflow, for using in "try-catch" statements [3].
+Default value of a bool type variable, was learnt in Microsoft documentation [4].
+Any other keywords which are related to "try-catch", could not be found in a document of Microsoft [5].
+It was noticed that IDE0059 warning showed an unnecessary assignment but its actual reason could not be understood in Microsoft documentation [5].
+While trying to find a solution for "CS0136" warning, it was learnt that scopes of variables in a "case" of "switch", correspond to the whole "switch" statement, from an answer in Stack Overflow [8].
+Another explanation about previous problem, was found a webpage [9].
+New brackets were added into case statements for solving previous problem.
+A custom exception decleration method for Java, was found in a webpage [10] but it was not used and instead of that, "throw new FormatException" statement was used.
+For previous sentence "statement" word was used instead of "phrase" word by benefiting a Wikipedia webpage [11].
+"Trim" method was found on a wepbage [12] and it was used for removing whitespaces from an input text.
+"Reverse" method was found in another webpage [13] and it was used for reversing sorted "list".
+Thanks to CA1806 warning, it was learnt that "Trim" method returns something and method should not be used without being assigned.
+Tasks of a subject [14] Patika.dev tutorial, were completed.
+[1] aardvark1231, https://www.reddit.com/r/programminghelp/comments/rmk3ia/why_this_code_gives_cs8600_problem/, 11 months ago.
+[2] Ani, https://stackoverflow.com/questions/3881826/reading-two-integers-in-one-line-using-c-sharp, 7 October 2010 at 13:23.
+[3] Jon Skeet, https://stackoverflow.com/questions/12550184/throw-a-format-exception-c-sharp, 23 September 2012 at 06:22.
+[4] https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/bool, 25 January 2022.
+[5] https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/try-catch, 4 Februray 2022.
+[6] https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/style-rules/ide0059, 25 June 2022.
+[7] https://stackoverflow.com/questions/3894119/variables-scope-in-a-switch-case
+[8] Richard Cook, https://stackoverflow.com/questions/3894119/variables-scope-in-a-switch-case, 8 October 2010 at 20:49.
+[9] Chris Newland, https://www.chrisnewland.com/java-variable-scope-in-switch-statement-150, 4 November 2011.
+[10] baeldung, https://www.baeldung.com/java-new-custom-exception, 2 May 2021.
+[11] https://en.wikipedia.org/wiki/Statement_(computer_science)
+[12] Mahesh Chand, https://www.c-sharpcorner.com/UploadFile/mahesh/trim-string-in-C-Sharp/, 20 September 2020.
+[13] Mahesh Chand, https://www.c-sharpcorner.com/UploadFile/mahesh/how-to-reverse-a-C-Sharp-list/, 07 October 2018.
+[14] https://app.patika.dev/courses/csharp-101/12-odev-1
