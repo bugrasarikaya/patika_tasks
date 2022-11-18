@@ -1,0 +1,25 @@
+A tutorial webpage [1] was examined for remembering "ArrayList" concept.
+Two sources [2] [3] were used to create a method for checking prime status of a number.
+For sorting greater to smaller, thought process which is using "Sort" and "Reverse" methods, was approved by examining a webage [4].
+Statement of dynamic allocation for C#, was researched and it was understood that it is valid, in a webpage [5].
+Dynamic allocation method of array, was remembered on a webpage [6].
+It was decided to not capitalize first letter of "array" word, after examining a document [7] of Microsoft.
+"Array.Sort" and "Array.Reverse" methods were found in a webpage [8].
+A "for loop" statement on a webpage [9], was examined for adding more statement into "for loop".
+Static decleration of array, was examined on a webpage [10].
+"Contains" method was remembered on a webpage [11] of Stack Overflow.
+For reading and writing UTF-8 characters "Console.InputEncoding = Encoding.Unicode;" and "Console.OutputEncoding = Encoding.Unicode;" statements which were found in a webpage [12], were used.
+Nineteenth task [13] of a Patika.dev tutorial, was completed.
+[1] TutorialsTeacher, https://www.tutorialsteacher.com/csharp/csharp-arraylist.
+[2] Soner Gönül, AustinWBryan, https://stackoverflow.com/questions/15743192/check-if-number-is-prime-number, 1 April 2013 at 12:10 (answered), 24 November 2020 at 21:07 (edited).
+[3] Javatpoint, https://www.javatpoint.com/prime-number-program-in-csharp.
+[4] Ruchira Gayan Ranaweera, AirFusion, https://stackoverflow.com/questions/17409526/sorting-list-from-greatest-to-least, 1 July 2013 at 16:53 (answered), 29 May 2020 at 07:29 (edited).
+[5] Namra Ijlal, https://www.educative.io/answers/what-is-dynamic-memory-in-c-sharp-vs-cpp.
+[6] Mahesh Chand, https://www.c-sharpcorner.com/article/what-are-c-sharp-dynamic-arrays/, 1 November 2019.
+[7] Microsoft, https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/arrays/, 1 October 2021.
+[8] Mahesh Chand, https://www.c-sharpcorner.com/article/how-to-sort-an-array-in-c-sharp/, 2 March 2022.
+[9] ShinTakezou, Community (Bot), https://stackoverflow.com/questions/16859029/multiple-conditions-in-a-c-for-loop, 31 May 2013 at 15:14 (answered), 23 May 2017 at 11:55 (edited).
+[10] W3Schools, https://www.w3schools.com/cs/cs_arrays.php.
+[11] Daniel Elliott, Mike G, https://stackoverflow.com/questions/1818611/how-to-check-if-a-particular-character-exists-within-a-character-array, 30 November 2009 at 09:02 (answered), 15 February at 17:44 (edited).
+[12] Phil, Community (Bot), https://stackoverflow.com/questions/9586386/c-sharp-utf8-reading-outputting, 6 March 2012 at 15:17 (answered), 23 May 2017 at 12:24 (edited).
+[13] https://app.patika.dev/courses/csharp-101/15-odev-2
