@@ -1,0 +1,44 @@
+Twenty-sixth project was created on Visual Studio for a task in Patika.dev [1].
+Simple usage of "enum" concept, was examined on a webpage [2].
+Difference between declaring in class and declaring out of class, was examined on a webpage of Stack Overflow [3].
+Basics of "Dictionary" concept, was remembered in a webpage [4].
+An element of two dimensional "List", could not be used in a "foreach" loop which is in a static method because of CS0120 error and static keyword was removed to solve this.
+It was learnt that "CTRL + Shift + B" combination builds "solution" and "CTRL + B" combination builds project on Visual Studio, by examining Visual Studio interface.
+"ContainsKey" method was found in a webpage [5] of Stack Overflow and it was used for searching in dictionary.
+Instead of "if" statements, "NullReferenceException" was throwed for checking variable's null status and "NullReferenceException" was found in internet.
+Tree diagram of exceptions, was examined on a wepbage [6].
+A webpage [7] about "NullReferenceException", was read.
+A webpage [8] about "ArgumentNullException", was read.
+For searching in multidimensional list, a shorter method which has nested lambda expressions, was found on a webpage [9] but it did not work with "Contains" method.
+"Any" and "FindIndex" methods were used to solve previous problem.
+Method of returning an array for C# method, was found on a webpage [10].
+Declaration method of array, was remembered on a webpage [11].
+To solve CS8603 warning, its potential fix which is using "null-conditional-operator" on return type, was implemented.
+A webpage [13] about "FormatException", was read.
+It was learnt that null string and empty string are different, after testing and readin a webpage [13].
+Suggested exception types were examined on a webpage [14].
+A webpage [15] about "ArgumentException", was read.
+Code of an answer in a webpage [16], was examined and "string.IsNullOrEmpty" method was used with throwinng "Exception" instead of "ArgumentException".
+For checking emptiness of a string, various methods were examined in a webpage [17].
+Any special method for moving items in list, could not be found but "Insert" method for inserting element to a specific index, was found in a webpage [18].
+"The card can only be assigned to one of team members." rule was not obeyed because it was thought that task instructions have designed carelessly and all of these instructions should not need to be considered.
+Using commma in square brackets of list, did not work and also its solution could not found.
+Twenty-sixth task was completed.
+[1] https://app.patika.dev/courses/csharp-101/20-proje-2
+[2] W3Schools, https://www.w3schools.com/cs/cs_enums.php.
+[3] D Stanley, https://stackoverflow.com/questions/24784312/c-sharp-what-difference-enum-in-namespace-than-enum-inside-a-class, 16 July 2014 at 15:29 (answered).
+[4] TutorialsTeacher, https://www.tutorialsteacher.com/csharp/csharp-dictionary.
+[5] Henk Holterman, https://stackoverflow.com/questions/5531042/how-to-find-item-in-dictionary-collection, 20 September 2017 at 10:09.
+[6] https://www.tutorialsteacher.com/csharp/csharp-exception
+[7] Mustafa Bükülmez, https://mustafabukulmez.com/2020/01/26/c-nullreferenceexception-nedenleri-ve-kullanimi/, 26 January 2020.
+[8] Mustafa Bükülmez, https://mustafabukulmez.com/2020/01/11/c-argumentnullexception-nedenleri-ve-kullanimi/, 11 January 2020.
+[9] Søren D. Ptæus, https://stackoverflow.com/questions/42692494/search-in-nested-list, 17 March 2017 at 9:43.
+[10] puko, https://stackoverflow.com/questions/29353006/how-to-return-int-array-c-sharp, 30 March 2015 at 18:07.
+[11] Tutorialspoint, https://www.tutorialspoint.com/csharp/csharp_arrays.htm.
+[12] Mustafa Bükülmez, https://mustafabukulmez.com/2020/01/13/c-formatexception-ve-nedenleri-kullanimi/, 13 January 2020.
+[13] Kunal Chowdhury, https://www.kunal-chowdhury.com/2017/07/string-null-or-empty.html, 31 July 2017.
+[14] https://stackoverflow.com/questions/20154486/correct-exception-for-an-empty-null-string-passed-to-a-constructor
+[15] Mustafa Bükülmez, https://mustafabukulmez.com/2020/01/10/c-argumentexception-nedenleri-ve-kullanimi/, 10 January 2020.
+[16] Reed Copsey, Jr, https://social.msdn.microsoft.com/Forums/en-US/0679367f-1947-4405-9206-f3fd3e744b7b/throw-a-nullorempty-string-exception-in-a-class?forum=csharplanguage, 31 October 2011 4:48 PM.
+[17] code4it, https://www.code4it.dev/blog/csharp-check-if-string-is-empty, 1 October 2018.
+[18] Cédric Bignon, https://stackoverflow.com/questions/14628782/move-elements-in-list, 31 January 2013 at 16:10.
