@@ -1,0 +1,64 @@
+Original Array: [22, 27, 16, 2, 18, 6]
+Step 1:
+     ↓
+[22, 27, 16, 2, 18, 6]
+array[0] < array[1]
+Nothing was changed.
+Step 2:
+         ↓ 
+[22, 27, 16, 2, 18, 6]
+array[1] > array[2]
+Swap is implemening:
+[22, 27, 16, 2, 18, 6]
+[22, 16, 27, 2, 18, 6]
+[16, 22, 27, 2, 18, 6]
+Step 3:
+             ↓
+[16, 22, 27, 2, 18, 6]
+array[2] > array[3]
+Swap is implemening:
+[16, 22, 27, 2, 18, 6]
+[16, 22, 2, 27, 18, 6]
+[16, 2, 22, 27, 18, 6]
+[2, 16, 22, 27, 18, 6]
+Step 4:
+                ↓
+[2, 16, 22, 27, 18, 6]
+array[3] > array[4]
+Swap is implemening:
+[2, 16, 22, 27, 18, 6]
+[2, 16, 22, 18, 27, 6]
+[2, 16, 18, 22, 27, 6]
+Step 5:
+                    ↓
+[2, 16, 18, 22, 27, 6]
+array[4] > array[5]
+Swap is implemening:
+[2, 16, 18, 22, 27, 6]
+[2, 16, 18, 22, 6, 27]
+[2, 16, 18, 6, 22, 27]
+[2, 16, 6, 18, 22, 27]
+[2, 6, 16, 18, 22, 27]
+Sorted Array: [2, 6, 16, 18, 22, 27]
+Big-O Notation = O(n^2)
+If number 18 is searched in the sorted array, it would be average case because number 18 is in middle of the array.
+Origianl Array: [7, 3, 5, 8, 2, 9, 4, 15, 6]
+Step 1:
+First lowest number is 2 and it is swapping with first number of array:
+ ↓           ↓
+[7, 3, 5, 8, 2, 9, 4, 15, 6]
+[2, 3, 5, 8, 7, 9, 4, 15, 6]
+Step 2:
+Second lowest number is 3 and it is already in second position
+    ↓
+[2, 3, 5, 8, 7, 9, 4, 15, 6]
+Step 3:
+Third lowest number is 4 and it is swapping with third number of array:
+       ↓           ↓
+[2, 3, 5, 8, 7, 9, 4, 15, 6]
+[2, 3, 4, 8, 7, 9, 5, 15, 6]
+Step 4:
+Fourth lowest number is 5 and it is swapping with fourth number of array:
+          ↓        ↓
+[2, 3, 4, 8, 7, 9, 5, 15, 6]
+[2, 3, 4, 5, 7, 9, 8, 15, 6]

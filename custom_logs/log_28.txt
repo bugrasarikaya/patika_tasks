@@ -1,0 +1,24 @@
+"data_structures_n_algorithms_tasks" folder was created after reading the Patika.dev task [1].
+"task_1.txt" file was created.
+A webpage about Big-O notation, was read [2].
+Three videos [3] [4] [5] about Big-O notation, was watched on YouTube.
+A video [6] about insertion sort, was watched.
+Down arrow character which is "↓", was found in a webpage [7] of Wikipedia.
+A solution [8] was examined for first task.
+A video [9] about insertion sort, was watched.
+A solution [10] was examined for first task.
+"18 number" statement was changed to "number 18" after examining search and translation results.
+A video [11] about selection sort, was watched.
+Used "swapping with" statement was validated after examining a webpage [12].
+[1] https://app.patika.dev/courses/veri-yapilari-ve-algoritmalar/insertion-sort-proje
+[2] Serkan, https://www.serkanseker.com/tr/algoritmalarda-big-o-gosterimi-big-o-notation/.
+[3] Dilruba Köse, https://youtu.be/8MwDRZs1IBU, 19 June 2022.
+[4] freeCodeCamp.org, https://youtu.be/Mo4vesaut8g, 10 August 2021.
+[5] Glen's programming, https://youtu.be/JN7HGa45AZs, 10 September 2019.
+[6] Algoritma Uzmanı, https://youtu.be/0TuLALssvPU, 16 October 2017.
+[7] https://en.wikipedia.org/wiki/Arrow_(symbol)
+[8] EceBeyza, https://github.com/EceBeyza/VeriYapilariVeAlgoritmalar, 25 November 2022 07:35.
+[9] GeeksforGeeks, https://youtu.be/OGzPmgsI-pQ, 24 September 2016.
+[10] MahmutErdemir, https://github.com/MahmutErdemir/Project1-SelectionSort-www.patika.dev/blob/main/SelectionSortProjesi.md, 26 November 2022 08:31.
+[11] GeeksforGeeks, https://youtu.be/xWBP4lzkoyM, 24 September 2016.
+[12] Joel Olawanle, https://www.freecodecamp.org/news/swap-two-array-elements-in-javascript/, 29 September 2022.
