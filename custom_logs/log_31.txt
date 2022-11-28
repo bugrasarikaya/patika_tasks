@@ -1,0 +1,12 @@
+After reading a task [1] of Patika.dev, "oop" folder was created.
+A website [2] was chosen for drawing UML diagram online.
+It was learnt that UML and class diagram, are nearly same things, on a webpage [3].
+A class diagram image [4] in lesson, was examined because its subject is same as task's subject.
+Multiplicity term with its notation, was found in a webage [5] but it could not be implemented on online editor, easily.
+Multiplicity notations were not added on every associations because their necessity could not be found on internet.
+Drawn class diagram was exported as PNG format.
+[1] https://app.patika.dev/courses/oop/odev-university
+[2] https://app.diagrams.net/
+[3] Lithmee, https://pediaa.com/what-is-the-difference-between-uml-and-class-diagram/, 6 December 2018
+[4] https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/oop/class-diagram-example/figures/school.jpg
+[5] CPlusOOP, https://www.cplusoop.com/uml/module4/modeling-associations.php.
