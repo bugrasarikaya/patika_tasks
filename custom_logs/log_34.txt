@@ -1,0 +1,5 @@
+Fourth task [1] of a Patika.dev lesson, was read.
+Two projects [2] [3] about the task, were examined.
+[1] https://app.patika.dev/courses/oop/odev-film
+[2] busetozlu, https://github.com/busetozlu/OOP/blob/main/online-film.png, 17 November 2022 04:00.
+[2] Neslihan110, https://github.com/Neslihan110/Object_Oriented-_Programming-www.patika.dev/blob/main/onlineFilmSistemi.PNG, 30 October 2022 11:45.
