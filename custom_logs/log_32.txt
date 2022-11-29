@@ -1,0 +1,17 @@
+Second task [1] of a Patika.dev lesson, was read.
+Three projects [2] [3] [4] about the task, were examined.
+It was learnt that plural and singular forms are same for species word, on a webage [5].
+A projects [6] about the task, was examined.
+It was validated that child class cannot acces private members of parent class, in a webpage [8].
+After examining UML arrows on internet, colors drawn arrows, were changed to white.
+An image about shapes of UML, was examined on a webpage [9].
+Some class names were changed to italic for making them abstract.
+[1] https://app.patika.dev/courses/oop/odev-zoo
+[2] busetozlu, https://github.com/busetozlu/OOP/blob/main/hayvanat-bahce-yonetim.png, 16 November 2022 02:18.
+[3] gokersa, https://github.com/gokersa/zooManagement/blob/main/zoo.jpeg.jpg, 29 November 2022 09:49.
+[4] MBilcanoglu, https://github.com/MBilcanoglu/zooManagementUml/blob/main/zooManagement.png, 28 November 2022 09:58.
+[5] Geoffrey Mutie, https://livexp.com/blog/is-specie-the-singular-of-species/, 13 April 2021.
+[6] FatmaArican, https://github.com/FatmaArican/Management-of-zoo/blob/main/Kopyas%C4%B1%20Ba%C5%9Fl%C4%B1ks%C4%B1z%20Diyagram.jpg, 8 November 2022 06:23.
+[7] https://docs.oracle.com/javase/tutorial/java/IandI/subclasses.html
+[8] Oracle, https://docs.oracle.com/javase/tutorial/java/IandI/subclasses.html.
+[9] Khalil Stemmler, https://khalilstemmler.com/articles/uml-cheatsheet/, 19 May 2022.
