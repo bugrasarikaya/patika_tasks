@@ -1,0 +1,15 @@
+Third task [1] of a Patike.dev course, was read.
+For drawing a filled circle, solutions were searched on internet and one program [2] was thought that its "if" statement's condition is similar to circle formula
+Two webpages [3] [4] were examined shortly for learning difference between "Parse" and "TryParse".
+"Math.Pow" method which is used in calculations of exponantial numbers, was found in a webpage [5].
+Equation formula of circle, was examined on a webpage [6].
+Drawn circle was not as expected because of high vertical difference of characters of console screen.
+Ellipse formula was found in a webpage [7].
+An circle was drawn but its right and left sides did not become equal to its top and down sides.
+[1] https://app.patika.dev/courses/c-projeleri/daire-cizme
+[2] Piyush Kumar Sahoo, https://www.quora.com/How-do-I-use-C-to-draw-a-circle-without-using-graphic-h.
+[3] Greg Beech, https://stackoverflow.com/questions/467613/parse-v-tryparse, 22 January 2009 at 00:20.
+[4] DailyRazor, https://www.dailyrazor.com/blog/int-parse-vs-int-tryparse/.
+[5] jit_t, https://www.geeksforgeeks.org/c-sharp-math-pow-method/,  31 January 2019.
+[6] Varsity Tutors, https://www.varsitytutors.com/hotmath/hotmath_help/topics/equation-of-a-circle.
+[7] Mindy Dyar, https://www.quora.com/How-do-I-draw-an-ellipse-from-an-equation.
