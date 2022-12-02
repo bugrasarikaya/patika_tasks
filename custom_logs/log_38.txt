@@ -1,0 +1,3 @@
+Second task [1] of a Patika.dev course, was read.
+Some triangles on console screen, were examined on results of a short googling.
+[1] https://app.patika.dev/courses/c-projeleri/ucgen-cizme
