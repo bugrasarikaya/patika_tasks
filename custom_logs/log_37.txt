@@ -1,0 +1,15 @@
+First task [1] of a Patika.dev lesson, was read.
+An answer about renaming Visual Studio solution folder name, was read shortly on a webpage [2].
+A solution whose name is "csharp_projects" was created and it was moved to local GitHub repository.
+First project was names as "task_1".
+A blog on a webpage [3], was read for learning Single Responsibility principle.
+2 projects [4] [5] which are related to the task, was examined.
+It was thought that zeroth number of Fibonacci sequence, is zero after examining an online Fibonacci sequence calculator [6].
+A webpage [7], was used for coding Fibonacci sequence.
+[1] https://app.patika.dev/courses/c-projeleri/ortalama-hesaplama
+[2] community wiki, Tim Abell, https://stackoverflow.com/questions/211241/how-can-i-rename-a-project-folder-from-within-visual-studio, 18 December 2019 at 16:21.
+[3] ERKAN GÜZELKÜÇÜK, https://devnot.com/2016/single-responsibility-principle-tek-sorumluluk-prensibi-uzerine/, 13 November 2016.
+[4] ogunec, https://github.com/ogunec/patika.dev/blob/main/OrtalamaHesaplama/OrtalamaHesaplama/Program.cs, 24 November 2022 07:59 PM.
+[5] karakalem54, https://github.com/karakalem54/Fibonacci-Ortalama/blob/main/FibonacciOrtalama.cs, 22 November 2022 12:30 AM.
+[6] CalculatorSoup, https://www.calculatorsoup.com/calculators/discretemathematics/fibonacci-calculator.php.
+[7] GeeksforGeeks, https://www.geeksforgeeks.org/program-for-nth-fibonacci-number/, 10 November 2022.
