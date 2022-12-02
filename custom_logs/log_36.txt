@@ -1,0 +1,10 @@
+First task [1] of a Patika.dev lesson, was read.
+By examining previous lesson [2], a markdown text was written on default text editor and its preview was examined on StackEdit [3].
+It was noticed that and horizantai line was inserted wihout usage of triple hyphen after writing a header.
+"header" term was found on a tutorial webpage [4] for writing previous sentence.
+A simple text file was written and it was saved as "readme.md".
+Any license was not added.
+[1] https://app.patika.dev/courses/git/odev1
+[2] https://app.patika.dev/courses/git/markdown-nedir-nasil-kullaniriz-
+[3] https://stackedit.io/
+[4] W3Schools, https://www.w3schools.com/html/html_headings.asp.
