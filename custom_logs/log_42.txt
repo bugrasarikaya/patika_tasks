@@ -1,0 +1,16 @@
+Sixth task [1] of a Patika.dev course, was read.
+It was learnt that macros is not available in C#, on a webpage [2].
+Sphere formula was found in a webpage [3].
+Operator precedence table was examined on a webpage [4].
+"on the left of" statement was found in a video [5] and it was used to write next sentence.
+"internal" access modifier was moved to the left of "static" access modifier.
+Area formula of triangle whose edges are given, was found in a webpage [6].
+"Math.Sqrt" method was found in a webpage [7].
+Volume calculations were removed to reduce complexity.
+[1] https://app.patika.dev/courses/c-projeleri/alan-hesaplama
+[2] Andrew Hare, Antonio, https://stackoverflow.com/questions/709463/c-sharp-macro-definitions-in-preprocessor, 2 April 2009 at 12:14 (answered), 29 November 2018 at 19:44 (edited).
+[3] Khan Academy, https://www.khanacademy.org/science/ap-biology/cell-structure-and-function/cell-size/v/volume-of-a-sphere.
+[4] cppreference.com, https://en.cppreference.com/w/c/language/operator_precedence.
+[5] İngilizce Konu Anlatımı - Özer Kiraz, https://youtu.be/dBYKwJRd5qk, 9 November 2016.
+[6] Bilgicik.Com, https://www.bilgicik.com/yazi/ucgenin-alani/.
+[7] Mithun Kumar, https://www.geeksforgeeks.org/c-sharp-math-sqrt-method/, 6 September 2022.
