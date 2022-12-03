@@ -1,4 +1,4 @@
-Fourth task [1] of a Patike.dev course, was read.
+Fourth task [1] of a Patika.dev course, was read.
 Because of CS1023 error, a declaration could not be implemented next to an "if" statement.
 "Remove" method was found in a webpage [2] and it was used.
 [1] https://app.patika.dev/courses/c-projeleri/string-ve-sayi-alan

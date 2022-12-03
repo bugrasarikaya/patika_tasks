@@ -1,0 +1,4 @@
+Fifth task [1] of a Patika.dev course, was read.
+A solution which has "SubString" method was found in a webpage [2] and it was benefited for shifting string.
+[1] https://app.patika.dev/courses/c-projeleri/karakter
+[2] John Woo, https://stackoverflow.com/questions/15053461/shifting-a-string-in-c-sharp, 24 February 2013 at 15:52.

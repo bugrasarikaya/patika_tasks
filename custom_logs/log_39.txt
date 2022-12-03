@@ -1,4 +1,4 @@
-Third task [1] of a Patike.dev course, was read.
+Third task [1] of a Patika.dev course, was read.
 For drawing a filled circle, solutions were searched on internet and one program [2] was thought that its "if" statement's condition is similar to circle formula
 Two webpages [3] [4] were examined shortly for learning difference between "Parse" and "TryParse".
 "Math.Pow" method which is used in calculations of exponantial numbers, was found in a webpage [5].
