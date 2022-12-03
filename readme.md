@@ -1,2 +1,2 @@
 # Patika.dev Tasks
-This repository has projects for [Patika.dev tasks](www.patika.dev).
+This repository has projects for [Patika.dev](www.patika.dev) tasks.
