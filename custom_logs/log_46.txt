@@ -1,0 +1,13 @@
+Tenth task [1] of a Patika.dev course, was read.
+"implicitly typed array" term was learnt on a document of Microsoft [2].
+A document about "upper case" term was found in a webpage [3] and it was decided to use "upper case" term as unified on variable names.
+While benefiting an old task code [4], a problem was noticed and it was fixed.
+"ToCharArray" method was found in a webpage [5] and it was used.
+2 webpages [6] [7] about difference between "Count" and "Length" members, were examined and it was learnt that "Length" is better.
+[1] https://app.patika.dev/courses/c-projeleri/sessiz-harf
+[2] https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/arrays/single-dimensional-arrays, 06/21/2022.
+[3] https://www.btb.termiumplus.gc.ca/tpv2guides/guides/wrtps/index-eng.html?lang=eng&lettr=indx_catlog_u&page=93RWp-TrWcZ4.html
+[4] bugrasarikaya, https://github.com/bugrasarikaya/patika_tasks/blob/c810d8acf540b11d79a413bd6de5b2ac035bac22/csharp_tasks/task_19/main.cs, 
+[5] Mahesh Chand, https://www.c-sharpcorner.com/UploadFile/mahesh/convert-string-to-char-array-in-C-Sharp/, 11 January 2020.
+[6] ProgrammingHave, http://programminghave.blogspot.com/2014/02/c-count-or-length.html, 10 February 2014.
+[7] Dyppl, Peter Mortensen, https://stackoverflow.com/questions/6646449/net-array-difference-between-length-count-and-rank, 11 Jul 2011 at 06:25 (answered), 18 August 2021 at 09:58 (edited).

@@ -22,4 +22,4 @@ Nineteenth task [13] of a Patika.dev tutorial, was completed.
 [10] W3Schools, https://www.w3schools.com/cs/cs_arrays.php.
 [11] Daniel Elliott, Mike G, https://stackoverflow.com/questions/1818611/how-to-check-if-a-particular-character-exists-within-a-character-array, 30 November 2009 at 09:02 (answered), 15 February at 17:44 (edited).
 [12] Phil, Community (Bot), https://stackoverflow.com/questions/9586386/c-sharp-utf8-reading-outputting, 6 March 2012 at 15:17 (answered), 23 May 2017 at 12:24 (edited).
-[13] https://app.patika.dev/courses/csharp-101/15-odev-2
+[13] https://app.patika.dev/courses/csharp-101/15-odev-2, 18 November 2022 at 05:30.

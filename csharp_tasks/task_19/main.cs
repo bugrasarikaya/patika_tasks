@@ -110,18 +110,18 @@ namespace task_19 {
                             Console.InputEncoding = Encoding.Unicode;
                             Console.OutputEncoding = Encoding.Unicode;
                             do {
-                                Console.WriteLine("Enter a text: ");
+                                Console.Write("Enter a text: ");
                                 input = Console.ReadLine();
                                 exception = false;
-                                if(input == null) {
+                                if(!string.IsNullOrEmpty(input)) {
+                                    foreach (char letter in input) if (vowels.Contains(letter)) list_vowels.Add(letter);
+                                    foreach (char element in list_vowels) Console.Write(element + " ");
+                                    Console.WriteLine();
+                                } else {
                                     Console.WriteLine("Invalid Input");
                                     exception = true;
                                 }
                             } while (exception);
-                            //foreach (char letter in input) if (vowels.Contains(letter)) list_vowels.Add(letter);
-                            //foreach (char element in list_vowels) Console.Write(element + " ");
-                            foreach (char letter in input) Console.Write(letter + " ");
-                            Console.WriteLine();
                         }
                         break;
                     case 4:
