@@ -1,0 +1,2 @@
+Eighth task [1] of a Patika.dev course, was read.
+[1] https://app.patika.dev/courses/c-projeleri/mutlak-kare
