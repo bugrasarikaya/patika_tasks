@@ -1,0 +1,25 @@
+Twelfth task [1] of a Patika.dev course, was read.
+Method of adding trailing zeros, which is using "ToString("N2")", was learnt on a webpage [2].
+ATM options were examined on a webpage [3].
+"deposit" and "withdraw" words were validated after examining a post in a webpage [4].
+Difference between "withdraw" and "withdrawal" words were examined on a webpage [5].
+Writing an reading methods for text file, were examined on two sources [6] [7].
+Examples about date and time, were examined on four sources [8] [9] [10] [11].
+Examples of "File.AppendText" method, were examined on two sources [12] [13] but instead of that, "File.AppendAllTextAsync" method which was found in suggestions of Visual Studio, was used.
+"accessed the system" statement was used after a small googling.
+It was found only a performance issue between Async and Non-Async methods on a webpage [14] and any difference could not ne found between "File.AppendAllTextAsync" or "File.AppendAllText" methods while testing.
+Because "File.ReadAllTextAsync" method gave an unwanted result, all writing and reading methods were implemented non-asynchronously by removing "async" statement.
+[1] https://app.patika.dev/courses/c-projeleri/atm-uygulamasi
+[2] LukeH, https://stackoverflow.com/questions/787883/c-how-to-force-trailing-zero-in-numeric-format-string, 25 April 2009 at 00:09.
+[3] https://beconnected.esafety.gov.au/pluginfile.php/50715/mod_resource/content/1/index.html
+[4] bekojan, https://eksisozluk.com/deposit--113899, 11.06.2006 01:18.
+[5] Jennifer Gunner, https://grammar.yourdictionary.com/vs/withdraw-vs-withdrawal-removing-confusion.
+[6] Mahesh Chand, https://www.c-sharpcorner.com/article/c-sharp-write-to-file/, 7 March 2020.
+[7] https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/file-system/how-to-write-to-a-text-file, 11/03/2022.
+[8] ZetCode, https://zetcode.com/csharp/datetime/, 15 October 2022.
+[9] bugrasarikaya, https://github.com/bugrasarikaya/patika_tasks/blob/19d8970b275ddcd63db210fe68badee3ee10ae15/csharp_tasks/task_16/main.cs, 17 November 2022 at 01:16 AM.
+[10] Karel, FUD, https://stackoverflow.com/questions/5050102/convert-datetime-to-date-format-dd-mm-yyyy, 19 February 2011 at 10:07 (answered), 22 April 2016 at 05:57 (edited).
+[11] D'Arcy Rittich, https://stackoverflow.com/questions/4158868/output-date-without-slashes, 11 November 2010 at 20:20.
+[12] https://learn.microsoft.com/tr-tr/dotnet/api/system.io.file.appendtext?view=net-7.0
+[13] Kanchan_Ray, https://www.geeksforgeeks.org/file-appendtext-method-in-csharp-with-examples/, 20 June 2021.
+[14] https://stackoverflow.com/questions/61074203/c-sharp-performance-comparison-async-vs-non-async-text-file-io-operation-via-r
