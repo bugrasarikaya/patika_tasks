@@ -6,7 +6,7 @@ After examining a discussion in a webpage [5], it was thought arrays can be used
 "co_pilots" statement was selected for secondary pilots in airplane after reading a webpage [6].
 After reading a blog [7] shortly, main plot count was decreased to 1 but "co_pilots" array was not changed.
 [1] https://app.patika.dev/courses/oop/odev-flight
-[2] busetozlu, https://github.com/busetozlu/OOP/blob/main/ucus-sistemi.png, 17 November 2022 03:13.
+[2] busetozlu, https://github.com/busetozlu/OOP/blob/main/ucus-sistemi.png, 17 November 2022 03:13 AM.
 [3] https://en.wikipedia.org/wiki/List_of_airlines_of_Turkey
 [4] https://learn.microsoft.com/en-us/sql/t-sql/functions/date-and-time-data-types-and-functions-transact-sql?view=sql-server-ver16, 19 November 2022.
 [5] https://stackoverflow.com/questions/27459257/how-to-represent-an-attributes-data-type-as-an-array-of-objects-on-class-diagra

@@ -5,6 +5,6 @@ A video [3] about Binary Search Tree, was watched on YouTube.
 A video [4] about Binary Search Tree, was watched shortly, on YouTube.
 For finding a method for selecting a root to binary search tree, a research was done and after research, it was thought that first element is apopriate if binary search tree will not be balanced.
 [1] https://app.patika.dev/courses/veri-yapilari-ve-algoritmalar/binary-search-tree-proje
-[2] mustafaevsen, https://github.com/mustafaevsen/binarysearchtreeprojesi/blob/main/BINARYSEARCHTREEPROJESI.md, 24 November 2022 04:57.
+[2] mustafaevsen, https://github.com/mustafaevsen/binarysearchtreeprojesi/blob/main/BINARYSEARCHTREEPROJESI.md, 24 November 2022 04:57 PM.
 [3] GeeksforGeeks, https://youtu.be/qYo8BVxtoH4, 30 March 2017.
 [4] Algoritma Uzmanı, https://youtu.be/8r1sUwlnTwQ, 9 January 2017.

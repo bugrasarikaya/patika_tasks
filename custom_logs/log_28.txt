@@ -19,6 +19,6 @@ Used "swapping with" statement was validated after examining a webpage [12].
 [7] https://en.wikipedia.org/wiki/Arrow_(symbol)
 [8] EceBeyza, https://github.com/EceBeyza/VeriYapilariVeAlgoritmalar, 25 November 2022 07:35.
 [9] GeeksforGeeks, https://youtu.be/OGzPmgsI-pQ, 24 September 2016.
-[10] MahmutErdemir, https://github.com/MahmutErdemir/Project1-SelectionSort-www.patika.dev/blob/main/SelectionSortProjesi.md, 26 November 2022 08:31.
+[10] MahmutErdemir, https://github.com/MahmutErdemir/Project1-SelectionSort-www.patika.dev/blob/main/SelectionSortProjesi.md, 26 November 2022 08:31 AM.
 [11] GeeksforGeeks, https://youtu.be/xWBP4lzkoyM, 24 September 2016.
 [12] Joel Olawanle, https://www.freecodecamp.org/news/swap-two-array-elements-in-javascript/, 29 September 2022.

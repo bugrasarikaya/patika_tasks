@@ -3,8 +3,8 @@ Three projects [2] [3] [4] about the task, were examined.
 It was learnt that initializations can be applied in classes of UML diagram, by examining a webpage [5].
 After examining a webpage [6], parameter display of UML functions was learnt.
 [1] https://app.patika.dev/courses/oop/odev-film
-[2] emirylmz4144, https://github.com/emirylmz4144/Java101/blob/main/UmlDiagramExamples/ElevatorSimulationUml/src/elevatorSimulation.png, 2 November 2022 07:31.
-[3] MuraT110, hhttps://github.com/MuraT110/Object-Oriented-Programming/blob/main/Asans%C3%B6r%20Sim%C3%BClasyonu.PNG, 30 October 2022 01:9.
-[4] ifsygn, hhttps://github.com/ifsygn/patikaDev/blob/main/ObjectOrientedProgramming/AsansorSimulatoru/Mermaid-UML-Elevator.png, 18 September 2022 08:12.
+[2] emirylmz4144, https://github.com/emirylmz4144/Java101/blob/main/UmlDiagramExamples/ElevatorSimulationUml/src/elevatorSimulation.png, 2 November 2022 07:31 PM.
+[3] MuraT110, https://github.com/MuraT110/Object-Oriented-Programming/blob/main/Asans%C3%B6r%20Sim%C3%BClasyonu.PNG, 30 October 2022 01:09 PM.
+[4] ifsygn, https://github.com/ifsygn/patikaDev/blob/main/ObjectOrientedProgramming/AsansorSimulatoru/Mermaid-UML-Elevator.png, 18 September 2022 08:12 PM.
 [5] http://www.cs.sjsu.edu/~pearce/modules/lectures/uml2/class/index.htm
 [6] https://www.ibm.com/docs/en/rational-soft-arch/9.5?topic=classifiers-parameters, 2021-03-04.

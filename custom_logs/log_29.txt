@@ -5,4 +5,4 @@ A solution project [4] was examined.
 [1] https://app.patika.dev/courses/veri-yapilari-ve-algoritmalar/merge-sort-proje
 [2] GeeksforGeeks, https://youtu.be/JSceec-wEyw, 24 September 2016.
 [3] Algoritma Uzmanı, https://youtu.be/wbQWRvOad2s, 16 September 2017.
-[4] mustafaevsen, https://github.com/mustafaevsen/mergesortprojesi/blob/main/MERGESORTPROJESI.md, 4 November 2022 04:12.
+[4] mustafaevsen, https://github.com/mustafaevsen/mergesortprojesi/blob/main/MERGESORTPROJESI.md, 4 November 2022 04:12 PM.

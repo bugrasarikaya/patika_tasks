@@ -1,0 +1,25 @@
+Eleventh task [1] of a Patika.dev course, was read.
+List initializations were examined on a webpage [2].
+Concatenation methods were examined on a document [3] of Microsoft.
+Passive form of past perfect tense, was examined on a webpage [4] for writing next sentence.
+List system had been thought for coding this program but it was changed to dictionary system to store usernames and votes.
+An old task code [5] was examined for remembering dictionary initialization.
+"Add" method of dictionary, was found on a webpage [6].
+Method of updating a value in dictionary, was learnt in a webpage [7].
+Some custom log references were fixed.
+Usages of "Random.Next" method, were examined on two webpages [8] [9] for writing a code to generating random votes.
+By testing, it was learnt that "Random.Next" method can generate number zero.
+Methods for calculating dictionary value occurrence, were examined shortly on a webpage [10].
+Usages of "Math.Round" method, were examined on 2 webpages to show only 2 digits after comma.
+[1] https://app.patika.dev/courses/c-projeleri/voting-uygulamasi
+[2] Dot Net Perls, https://www.dotnetperls.com/initialize-list, 21 October 2022.
+[3] https://learn.microsoft.com/en-us/dotnet/csharp/how-to/concatenate-multiple-strings, 09/15/2021.
+[4] https://www.grammarbank.com/past-perfect-passive.html
+[5] bugrasarikaya, https://github.com/bugrasarikaya/patika_tasks/blob/8e8f81dd8fddfaa20d4316d21b3b97fe1d524e0c/csharp_tasks/task_26/board.cs, 23 November 2022 at 09:17 AM.
+[6] rupesh_rao, https://www.geeksforgeeks.org/c-sharp-dictionary-add-method/, 1 February 2019.
+[7] ccalboni, IT ppl, https://stackoverflow.com/questions/1243717/how-to-update-the-value-stored-in-dictionary-in-c, 7 August 2009 at 09:04 (answered), 28 November 2012 at 11:12 (edited).
+[8] Mahesh Chand, https://www.c-sharpcorner.com/article/generating-random-number-and-string-in-C-Sharp/, 13 October 2020.
+[9] rupesh_rao, https://www.geeksforgeeks.org/c-sharp-random-next-method/, 30 April 2019.
+[10] Jon Hanna, https://stackoverflow.com/questions/8459928/how-to-count-occurrences-of-unique-values-in-dictionary, 26 November 2015 at 10:53.
+[11] http://net-informations.com/q/faq/round.html
+[12] keshav_786, https://www.geeksforgeeks.org/c-sharp-math-round-method-set-1/,  31 January 2019
