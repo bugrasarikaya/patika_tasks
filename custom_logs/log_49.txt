@@ -1,0 +1,19 @@
+Thirteenth task [1] of a Patika.dev course, was read.
+A project [2] about the task, was examined.
+"using BarcodeLib;" line from the project, was searched and a tutorial [3] about Barcodelib NuGet package was found.
+Code which has "UPC-A" title, was used and a barcode as PNG format, was generated but a method for scanning could not be found.
+"ZXing.Net" NuGet package was installed but it could not be used.
+IronBarcode (BarCode) NuGet package was found in a webpage [4] and it was installed.
+After installation CA1416 warning occured and it was suppressed by applying a suggestion of Visual Studio.
+"IronSoftware.Exceptions.LicensingException" exception occured because of missing license.
+Aspose.BarCode was found in NuGet Package Manager and after installation, its example code from its URL [5], was used to read barcode but last 4 digits of barcode, could not be read because of missing license.
+Any research did not implemented for finding a new free barcode reader.
+It was noticed that Git did not track generated barcode image and thanks to relavite path notation whose examples were examine on two webpages [6] [7], file was saved in a top level folder.
+Previous modification was applied on previous project.
+[1] https://app.patika.dev/courses/c-projeleri/barcode-GeneratorReader
+[2] arifaydogan0, https://github.com/arifaydogan0/Project13-Barcode-Generator-Reader, 7 July 2022 at 11:03 PM.
+[3] Carlos Delgado, https://ourcodeworld.com/articles/read/478/how-to-create-barcode-images-from-a-string-with-different-formats-with-c-sharp-using-the-barcodelib-library-in-winforms, 24 February 2019.
+[4] IronSoftware, https://www.nuget.org/packages/barcode, 2022.11.10702
+[5] https://products.aspose.com/barcode/net/
+[6] https://learn.microsoft.com/en-us/dotnet/standard/io/file-path-formats, 11/30/2022.
+[7] https://learn.microsoft.com/en-us/answers/questions/241652/c-relative-absolute-path.html, 

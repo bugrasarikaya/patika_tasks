@@ -60,12 +60,12 @@ namespace task_12 {
         }
         static void log(string log_text) {
             DateTime now = DateTime.Now;
-            string filename = "log_" + now.ToString("ddMMyyyy") + ".txt";
+            string filename = @"..\..\..\log_" + now.ToString("ddMMyyyy") + ".txt";
             File.AppendAllText(filename, now + " - " + log_text + "\n");
         }
         internal static void show_daily_log() {
             DateTime now = DateTime.Now;
-            string filename = "log_" + now.ToString("ddMMyyyy") + ".txt";
+            string filename = @"..\..\..\log_" + now.ToString("ddMMyyyy") + ".txt";
             Console.Write(File.ReadAllText(filename));
         }
     }

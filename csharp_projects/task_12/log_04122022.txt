@@ -1,0 +1,27 @@
+4.12.2022 20:17:43 - user_0 accessed system.
+4.12.2022 20:17:48 - user_0 withdraw 100,00 cash.
+4.12.2022 20:17:52 - user_0 queried its balance.
+4.12.2022 20:18:13 - user_0 accessed system.
+4.12.2022 20:19:12 - user_0 withdraw 123,00 cash.
+4.12.2022 20:19:28 - user_0 withdraw 1.233,00 cash.
+4.12.2022 20:21:14 - user_0 accessed system.
+4.12.2022 20:21:16 - user_0 withdraw 1.233,00 cash.
+4.12.2022 20:22:22 - user_0 entered an invalid input.
+4.12.2022 20:22:26 - user_0 deposit 1,00 cash.
+4.12.2022 20:23:08 - user_0 withdraw 1.234,00 cash.
+4.12.2022 20:23:30 - user_0 deposit 123,00 cash.
+4.12.2022 20:24:24 - user_1 accessed system.
+4.12.2022 20:31:56 - Deposited cash amounts were randomized.
+4.12.2022 20:31:59 - user_23 could not access system because of unkown username.
+4.12.2022 20:32:03 - user19 could not access system because of unkown username.
+4.12.2022 20:32:06 - user_19 could not access system because of unkown username.
+4.12.2022 20:32:09 - user_3 accessed system.
+4.12.2022 20:32:11 - user_3 queried its balance.
+4.12.2022 20:32:21 - user_3 withdraw 1.000,50 cash.
+4.12.2022 20:32:38 - user_3 queried its balance.
+4.12.2022 20:35:49 - Deposited cash amounts were randomized.
+4.12.2022 20:35:49 - sdf could not access system because of unkown username.
+4.12.2022 20:42:11 - Deposited cash amounts were randomized.
+4.12.2022 20:42:11 - user_2 accessed system.
+4.12.2022 20:42:39 - Deposited cash amounts were randomized.
+4.12.2022 20:42:39 - user_3 accessed system.

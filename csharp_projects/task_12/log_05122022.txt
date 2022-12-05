@@ -1,0 +1,3 @@
+5.12.2022 03:17:44 - Deposited cash amounts were randomized.
+5.12.2022 03:17:44 - test could not access system because of unkown username.
+5.12.2022 03:17:50 - user_0 accessed system.
