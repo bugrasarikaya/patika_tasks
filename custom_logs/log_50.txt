@@ -1,0 +1,52 @@
+First task [1] of a Patika.dev course, was read.
+New folder whose name is ".net_core", was created.
+Other ASP.NET courses were searched because it was thought that ".Net Core" course of Patika.dev is not good.
+Two video playlists about ASP.NET [2] [3], were found on YouTube.
+"CTRL + K + D" shortcut which adjusts code lines, was learnt on a watched video [4].
+It was learnt that "ToString()" method with "X2" argument, converts string value to hexademical string value, in a webpage [5].
+A method for closing SQL Server on PC, was learnt on a video [6] from watched playlist.
+Playlist whose owner is Emir Özdemir [6], was watched.
+A video [7] about ASP.NET Web API, was found on YouTube.
+A video playlist [8] about ASP.NET Web API, was found on YouTube.
+Watching process of video [7] whose owner is Sadık Turhan, was completed.
+Watching process of video playlist [8] whose owner is Kenan Yıldırım, was completed.
+A long video [9] about ASP.NET Core, was found on YouTube.
+Meaning of "from scratch" phrase which was heard from previous video, was learnt on a webpage [10].
+Tutorial video [9] whose owner is "freeCodeCamp.org", was watched.
+An extension for Google Chrome, was learnt on a YouTube video [11] and after downloading its latest version from a webpage [12], it was used for decreasing volume of a specific tab.
+A tutorial video playlist [13] about ASP.NET web API, was found in YouTube.
+It was learnt that "typeof" operator is used for getting type during compile time, on a webpage [14].
+All videos of playlist [2] whose owner is Gençay Yıldız, were watched.
+A textual tutorial [15] about ASP.NET Web API, was found on internet.
+All videos of playlist [13] whose owner is Teddy Smith, were watched.
+It was learnt that latest version of ASP.NET Web API, is 2.2, on a webpage [16].
+Meaning of "multi-paradigm" phrase, learnt on a webpage [17].
+Difference between C# and Visual C#, was learnt on a webpage of Tutorialspoint [18].
+Version history of .NET , was examined on a webpage [19].
+Reading process of found textual tutorial [15], was stopped because it was understood that taught concept is an old version, at third webpage [20] which has images from 2016 and does not have "Program.cs" file.
+A textual tutorial [21] about ASP.NET CORE Web API, was found and process of reading it, was begun.
+Meaning of memory footptrint, was learnt on a webpage [22].
+An empty ASP.NET project was created for .NET Practicum.
+Process reading of found Web API tutorial [21], was terminated because it turned out to be poor quality.
+[1] https://app.patika.dev/courses/net-core/4-odev-model-kullanimi
+[2] Gençay Yıldız, https://youtube.com/playlist?list=PLQVXoXFVVtp33KHoTkWklAo72l5bcjPVL, 20 February 2021.
+[3] Emir Özdemir, https://www.youtube.com/playlist?list=PLD54hVH5EaMZCz7d9H5TFmXeqH8rTiTB8, 13 August 2022.
+[4] Emir Özdemir, https://youtu.be/_twZZFIXxDw, 5 August 2021.
+[5] TypeIA, SW_user2953243, https://stackoverflow.com/questions/20750062/what-is-the-meaning-of-tostringx2, 23 December 2013 at 19:40 (answered), 5 January 2019 at 8:51 (edited).
+[6] Emir Özdemir, https://youtu.be/u9kTdQBOHi8, 13 August 2022.
+[7] Sadık Turhan, https://youtu.be/ZqOOUiqFtxA, 22 April 2020.
+[8] Kenan Yıldırım, https://youtube.com/playlist?list=PLpiXyP9d3U1oZAToh0vg4N6meBWM_IPDQ, 17 Oca 2020.
+[9] freeCodeCamp.org, https://youtu.be/BfEjDD8mWYg, 16 November 2020.
+[10] mortimes, https://eksisozluk.com/scratch--60216?p=1, 06.11.2001 16:14.
+[11] Computer Help, https://youtu.be/vjvFqDsKCNc, 1 November 2017.
+[12] petasittek.com, https://chrome.google.com/webstore/detail/volume-master/jghecgabfgfdldnmbfkhmffcabddioke, 22 November 2022.
+[13] Teddy Smith, https://youtube.com/playlist?list=PL82C6-O4XrHdiS10BLh23x71ve9mQCln0, 8 February 2022.
+[14] ankita_saini, https://www.geeksforgeeks.org/typeof-operator-keyword-in-c-sharp/, 11 October 2022.
+[15] https://www.tutorialsteacher.com/webapi
+[16] https://learn.microsoft.com/en-us/aspnet/web-api/overview/releases/whats-new-in-aspnet-web-api-22, 05/11/2022.
+[17] phreak, https://eksisozluk.com/multi-paradigm--4938143, 15.10.2015 at 05:50.
+[18] Arjun Thakur, https://www.tutorialspoint.com/difference-between-chash-and-visual-chash, 30-Jul-2019 22:30:23.
+[19] https://dotnet.microsoft.com/en-us/platform/support/policy/dotnet-core, 13 December 2022.
+[20] https://www.tutorialsteacher.com/webapi/create-web-api-project
+[21] https://dotnettutorials.net/course/asp-net-core-web-api-tutorials/
+[22] https://en.wikipedia.org/wiki/Memory_footprint
