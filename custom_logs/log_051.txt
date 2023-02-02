@@ -1,0 +1,89 @@
+First task text was saved in "task_instructions" folder.
+Custom logs files were renamed.
+A video about REST, was watched.
+2 webpages [2] [3] about REST, were read.
+2 videos about REST [4] [5], were watched.
+An online document [6] about Web API, was read.
+An official tutorial [7] about RESTful API, was read.
+3 videos [8] [9] [10] about .NET RESTful API, were watched.
+An empty ASP.NET Core Web API project was created into "net_practicum" solution.
+Classes which are related to "WeatherForecast", were removed as advised before in a tutorial video [9].
+"Employee" class was created in created "Model" folder.
+3 webpage [11] [12] [13] about model binding, were examined.
+In some examined webpages, it was encountered that there was DbContext class in "Data" folder instead of "Models" folder.
+"Microsoft.EntityFrameworkCore.SqlServer" (v7.0.2) and "Microsoft.EntityFrameworkCore.Tools" (v7.0.2) NuGet packages were installed.
+"EmployeeDbContext" class was created into added "Data" folder.
+By benefiting a DbContext code [14], context of "EmployeeDbContext" class was filled.
+"npt1_db" name which stands for ".NET Practicum Task 1 Database", was determined for database name.
+"Configurations" folder was created in "Data" folder because it was seen in two webpages [15] [16].
+Migration named "migration_0", was applied.
+3 [17] [18] [19] webpages about await keyword, were examined.
+Two online video [20] [21] about dependeny injection, were watched.
+A method for injecting both ILogger and DbContext, was found in a webpage [22].
+By benefiting two webpages [5] [23] [24], SQL connection string was obtained from "appsettings.json" file.
+After watching a video [25] about uing DbContext with dependency injection, OnConfiguring method of EmployeeDbContext class, was removed and a constructor was added as in watched video.
+Another video [26] about dependency injection, was watched.
+In a webpage [27], it was learnt that JsonResult inherits ActionResult which inherits IActionResult.
+In a video [9], for getting all rows in table, unnecessity of Select method, was understood because ToList method is sufficient.
+By benefiting 2 videos [5] [28], codes of actions, were moved into "try-catch" statement and returned 500 status in catch scope.
+Updating action was coded by benefiting an examined video [5].
+In a webpage [29], it was learnt that "[FromUri]" attribute was replaced with "[FromQuery]" in .NET Core.
+A swagger error about slash character, was resolved by changing "[Route("api/[controller]")]" statement to "[Route("api")]" statement.
+After re-examining a video [10], "[Route("api")]" statements was changed to "[Route("api/[controller]")]" statement because it was understood that name of controller, was incomplete and it was renamed as "EmployeeController".
+"[FromQuery]" attribute was removed because it was causing requesting double id parameters on Swagger.
+Example Value Schema section of Swagger, was empty and it was resolved by adding missing property methods which are get and set.
+To implement HTTP PATCH, an action similar to HTTP PUT action, was designed but it worked like HTTP PUT action.
+After examining 3 webpage [30] [31] [32], Microsoft.AspNetCore.JsonPatch (v7.0.2) and Microsoft.AspNetCore.Mvc.NewtonsoftJson (v6.0.13) NuGet packages were installed and HTTP PATCH action was applied.
+Latest version of Microsoft.AspNetCore.Mvc.NewtonsoftJson NuGet package could not be installed because it was not compatible to current .NET Core version which is 6.
+Examining a video [33], BadRequest was returned after checking arguments with null or 0.
+By benefiting 2 webpages [34] [35], "Created" method was returned for responding with 201 HTTP status code.
+"[StringLength(100)]" data annotation which was found in a webpage [36], and "= null!;" statement were used to validate model.
+After examining a webpage [37] and "ControllerBase.cs" file, returning "NoContent" method, was decided for deleting operation.
+Changed model value was used as an argument to returned "Ok" methods.
+Any obligation about non-empty request body, could not be found but response bodies was tried to be filled.
+Usage of "OrderBy" method, was examined on a webpage [38] and it was used.
+By benefiting 2 webpages, "string.Equals" method with "StringComparison.OrdinalIgnoreCase" argument, was used to check URL paramater for ordering.
+On a webpage [41], it was learnt that routing parameter cannot be constrained with "string".
+Comment lines were added.
+Database was exported into created "database_files".
+[1] K. Murat Başeren, https://youtu.be/FlkGlHZZLTQ, 29 January 2018.
+[2] Yusuf Sezer, https://www.yusufsezer.com.tr/rest-nedir/.
+[3] YIGIT-NUHUZ, https://caylakyazilimci.com/post/restful-api-nedir-ve-standartlari-nelerdir, 05 MAY 2020.
+[4] Emre ŞURK, https://youtu.be/M8iF478xDF4, 14 May 2022.
+[5] Simplilearn, https://youtu.be/BqDvnDQoMVo, 21 May 2022.
+[6] Rick Anderson, Kirk Larkin, https://learn.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?WT.mc_id=dotnet-35129-website&view=aspnetcore-7.0&tabs=visual-studio, 01/26/2023.
+[7] https://learn.microsoft.com/en-us/training/modules/build-web-api-aspnet-core/?WT.mc_id=dotnet-35129-website
+[8] freeCodeCamp.org, https://youtu.be/PmDJIooZjBE, 1 August 2022.
+[9] tutorialsEU, https://youtu.be/Tj3qsKSNvMk, 29 March 2022.
+[10] Sameer Saini, https://youtu.be/3NWT9k-6xGg, 2 May 2022.
+[11] Monalisa Das, https://www.dotnettricks.com/learn/webapi/model-binding-model-binder-example, 04 Sep 2022.
+[12] Lars Bilde, https://youtu.be/ToXSlG_aXWA, 6 September 2016.
+[13] James Walsh Jr, https://www.codeproject.com/Tips/1268090/ASP-NET-Web-API-Parameter-vs-Model-Binding, 16 Aug 2021.
+[14] bugrasarikaya, https://github.com/bugrasarikaya/techcareer.net_tasks/blob/main/net_bootcamp/task_final/Models/ShoppingListDbContext.cs, 22 Jan 2023 at 6:52 AM.
+[15] Alex Will, https://youtu.be/M0_hEnDXSo4, 1 February 2019.
+[16] Mohsen Esmailpour, https://dev.to/moesmp/ef-core-multiple-database-providers-3gb7, 26 Nov 2022.
+[17] GENÇAY, https://www.gencayyildiz.com/blog/cta-async-await-ikilisiyle-asenkron-islemler/, 17 June 2016.
+[18] Engin Ünal, https://medium.com/bili%C5%9Fim-hareketi/net-asenkron-async-await-programlama-2807fecae061, 17 September 2021.
+[19] Dan Dinu, Community(Bot), https://stackoverflow.com/questions/14455293/how-and-when-to-use-async-and-await, 14 Nov 2013 at 18:55 (answered), 20 Jun 2020 at 9:12 (edited).
+[20] Zeki SERT, https://youtu.be/KmTE5tlDMhQ, 25 May 2020.
+[21] Gençay Yıldız, https://youtu.be/Bhj2XdcoT2Q, 27 January 2021.
+[22] Steven, https://stackoverflow.com/questions/61228682/injecting-dbcontext-and-ilogger-into-database-dal-constructor-best-practice, 18 Jan 2021 at 16:25.
+[23] Neil W, https://stackoverflow.com/questions/74459546/getting-database-connectionstring-from-appsettings-environement-json-in-net-c, 16 November 2022 at 12:11.
+[24] https://stackoverflow.com/questions/69390676/how-to-use-appsettings-json-in-asp-net-core-6-program-cs-file
+[25] Just Pick and Learn, https://youtu.be/tsHLM70yYmw, 29 October 2022.
+[26] tutorialsEU - C#,  https://youtu.be/9J9a77ga9R0, 5 April 2022.
+[27] SLaks, https://stackoverflow.com/questions/15250941/actionresult-vs-jsonresult, 6 Mar 2013 at 15:12.
+[28] Abhith Rajan, https://www.abhith.net/blog/aspnet-core-return-500-internal-server-error-or-any-other-status-code-from-api/, 12 February 2020.
+[29] Mike_G, https://stackoverflow.com/questions/48195001/fromuri-in-asp-net-core-2-0, 10 Jan 2018 at 19:55.
+[30] Sarrawy Dev, https://youtu.be/8AnylqzoeFk, 26 June 2021.
+[31] Alejandrio Vasay, https://www.coderschmoder.com/implement-http-patch-in-asp-net-using-jsonpatch/, 24 March 2022.
+[32] pranavkm, https://github.com/dotnet/aspnetcore/issues/13938, 13 Sep 2019.
+[33] Nehanth World, https://youtu.be/eWLbalFolOc, 25 November 2022.
+[34] Gildor, https://stackoverflow.com/questions/23892341/how-can-i-code-a-created-201-response-using-ihttpactionresult, 27 May 2014 at 14:59.
+[35] WebGentle, https://youtu.be/CQDTdve590c, 9 April 2021.
+[36] bugrasarikaya, https://github.com/bugrasarikaya/techcareer.net_tasks/blob/main/net_bootcamp/task_final/ViewModels/AccountRegisterViewModel.cs, 23 January 2023.
+[37] Daniel Vassallo, Benjamin Charais, https://stackoverflow.com/questions/2342579/http-status-code-for-update-and-delete, 26 February 2010 at 15:18 (answered), 3 December 2022 at 13:44 (edited).
+[38] gunr2171, https://stackoverflow.com/questions/49057129/entity-framework-core-using-order-by-in-query-against-a-ms-sql-server, 1 Mar 2018 at 19:54.
+[39] ocean4dream, Liam, https://stackoverflow.com/questions/3121957/how-can-i-do-a-case-insensitive-string-comparison, 20 December 2012 at 4:40 (answered), 27 October 2015 at 16:52 (edited).
+[40] https://learn.microsoft.com/en-us/dotnet/csharp/how-to/compare-strings, 01/21/2023.
+[41] Uğur Canbulat, r3mark, https://stackoverflow.com/questions/59258021/the-constraint-reference-string-could-not-be-resolved-to-a-type-netcoreapp3, 10 December 2019 at 0:23 (answered), 19 June 2020 at 8:04 (edited).
