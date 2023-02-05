@@ -1,0 +1,71 @@
+Second task screenshot was saved into "task_instructions" folder.
+An empty ASP.NET Core Web API project whose name is "task_2", was created and its .NET version was 7.0.
+Previous task code was copied to new project.
+Microsoft.AspNetCore.JsonPatch (v7.0.2), Microsoft.AspNetCore.Mvc.NewtonsoftJson (v7.0.2), Microsoft.EntityFrameworkCore.SqlServer (v7.0.2) and Microsoft.EntityFrameworkCore.Tools (v7.0.2) NuGet packages were installed.
+A video [1] about SOLID, was watched.
+"task_final" project was removed.
+A webpage about dependency injection [2], was read.
+After examining 5 webpages [3] [4] [5] [6] [7] about repository pattern, using repository pattern, was decided because it supports SOLID.
+For Visual Studio, multiple selection shortcut which is "CTRL + ALT + Left Click", was remembered on a webpage [8].
+"IEmployeeRepository" and "EmployeeRepository" classes was created into created "Repository" folder.
+"context.Employees.OrderBy(e => EF.Property<object>(e, orderby)).ToList();" statement was written by benefiting an advice from previous task's responses.
+"AddScoped" extension method was used in "Program.cs" file because its usage was suggested in an examined video [6].
+"migration_0" migration was applied on "npt2_db" database.
+By benefiting two sources [9] [10], a code was tried to be written for checking given argument with column of table.
+"typeof()" statement could not be used with "context.Employees" statement and to resolve it, "GetType" method was used by examining a research result [11].
+A non-controller class was created into "NonController" folder and a string converter method was created by benefiting two sourcecs [12] [13].
+An interface class created for created string converter class but after changing its method to an extension method by benefiting a webpage [14], CS0714 error occurred because of using a static class to implement an interface and crated interface was removed.
+It was understood that "typeof()" and "GetType" statements were used incorrectly and after examining a webpage [15], "typeof(Employee)" was used instead of "context.Employees.GetType()" statement, while getting column names of model.
+Code of checking column name, was moved into a created extension method.
+A tutorial webpage [16] about fake REST API, was read.
+A video [17] about unit test, was watched.
+9 webpages [18] [19] [20] [21] [22] [23] [24] [25] [26] about logging, were examined.
+4 webpages [27] [28] [29] [30] about creating custom middleware, were examined.
+"LoggingMiddleware" middleware class was created for showing accessed action name like in a task instruction.
+"try-catch" statement was moved into created "ExceptionMiddleware" middleware.
+500 HTTP status code was returned by using "StartAsync" method in custom exception middleware.
+"NonController" folder was renamed as "ExtensionMethods".
+3 webpages [31] [32] [33] about custom attribute, were examined.
+A webpage [34] about reflection, was examined.
+A custom attribute about account (user) role, was applied on main controller.
+403 Forbidden HTTP status code was learnt on a webpage [35].
+By benefiting a code from a webpage [36], custom attribute of controller, was checked with a static value for authentication in another created custom middleware.
+Checked value was static because of implementing a fake authentication service.
+Database was exported.
+If account is not authorized, it responses with 403 status code.
+[1] Tech Buddy, https://youtu.be/oLVETlMyJZM, 7 January 2022.
+[2] GENÇAY, https://www.gencayyildiz.com/blog/dependency-injection-nedir-nasil-uygulanir/, 19 March 2016.
+[3] GENÇAY, https://www.gencayyildiz.com/blog/c-repository-design-patternrepository-tasarim-deseni/, 06 November 2019.
+[4] https://stackoverflow.com/questions/28102970/does-repository-pattern-follow-solid-principles
+[5] Per-Erik Bergman, https://medium.com/@pererikbergman/repository-design-pattern-e28c0f3e4a30, 20 April 2017.
+[6] Teddy Smith, https://youtu.be/-LAeEQSfOQk, 10 January 2022.
+[7] https://dotnettutorials.net/lesson/repository-design-pattern-csharp/
+[8] Gian Marco, https://stackoverflow.com/questions/16495727/multiple-select-in-visual-studio, 8 November 2020 at 19:48.
+[9] Ivan Stoev, https://stackoverflow.com/questions/42455279/how-to-get-column-name-and-corresponding-database-type-from-dbcontext-in-entity, 25 Sep 2019 at 21:09.
+[10] ravi kumar, bensiu, https://stackoverflow.com/questions/1803192/linq-get-table-column-names, 8 Jan 2013 at 13:09 (answered), Jan 8, 2013 at 13:28 (edited).
+[11] https://learn.microsoft.com/tr-tr/dotnet/api/system.object.gettype?view=net-7.0
+[12] Amit Joki, Tono Nam, https://stackoverflow.com/questions/21755757/first-character-of-string-lowercase-c-sharp, 13 Feb 2014 at 13:40 (answered), 9 Apr 2022 at 5:02 (edited).
+[13] Educative Answers Team, https://www.educative.io/answers/how-to-capitalize-the-first-letter-of-a-string-in-c-sharp.
+[14] https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/extension-methods, 09/29/2022.
+[15] Rahul Uttarkar, https://stackoverflow.com/questions/19704364/entity-framework-getting-a-tables-column-names-as-a-string-array, 28 Nov 2019 at 7:20.
+[16] https://app.patika.dev/courses/rest-api/fake-api
+[17] Enis Kurtay Yilmaz, https://youtu.be/zLulyCEniT4, 9 June 2018.
+[18] gavilanch3, https://youtu.be/D7aJaZYfKNY, 1 April 2020.
+[19] Round The Code, https://youtu.be/NN9Rmf0PUG4, 13 March 2022.
+[20] https://learn.microsoft.com/en-us/aspnet/core/fundamentals/http-logging/?view=aspnetcore-7.0, 02/02/2023.
+[21] Uğur Benli, https://www.ugurbenli.com/dotnet-core-projesine-logger-middleware-ekleme/, 20 April 2020.
+[22] Siber Güvenlik Akademisi, https://youtu.be/0y9W8qIrsos, 2 January 2023.
+[23] The Code Wolf, https://youtu.be/DvYGodosnOs, 12 December 2021.
+[24] GENÇAY, https://www.gencayyildiz.com/blog/asp-net-core-3-0-logging/, 18 June 2019.
+[25] Thomas Ardal, https://blog.elmah.io/asp-net-core-request-logging-middleware/, 14 January 2020.
+[26] Tech Buddy, https://youtu.be/K0DWvR_p6Ek, 5 December 2020.
+[27] https://www.tutorialsteacher.com/core/how-to-add-custom-middleware-aspnet-core
+[28] Tech Buddy, https://youtu.be/b8OpBUUo3c8, 4 December 2020.
+[29] Maroun Maroun, https://medium.com/geekculture/exception-middleware-in-net-core-applications-84e0cc2dacbf, 8 Jan 8 2023.
+[30] GENÇAY, https://www.gencayyildiz.com/blog/net-6-webapplication-ile-middleware-pipelineini-inceleyelim/, 18 December 2021.
+[31] https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/attributes/creating-custom-attributes, 03/18/2022.
+[32] Lucio Flores, https://youtu.be/gXkQZTYf-MU, 22 November 2020.
+[33] https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/attributes/accessing-attributes-by-using-reflection, 09/15/2021.
+[34] https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/reflection, 11/05/2021.
+[35] https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403.
+[36] Milad Karimifard, https://stackoverflow.com/questions/75252222/how-to-check-for-custom-attributes, 27 Jan at 3:41.
