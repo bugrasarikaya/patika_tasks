@@ -1,0 +1,14 @@
+A webpage [1] of .Net Core lecture, was examined.
+Previous "task_01" was removed and an empty ASP.NET Core Web API project was created.
+New project name was "task_1".
+Because examined webpage does not have all code that is related to task, previous lecture webpages [2] [3] [4] [5] [6] were examined.
+Also a shared task [7] was used to fix missing code lines.
+"task_final" project was deleted in file explorer.
+"UpdateBook" ve "GetById" method code lines, were written by benefiting written codes by teacher.
+[1] https://app.patika.dev/courses/net-core/4-odev-model-kullanimi
+[2] https://app.patika.dev/courses/net-core/1-get-endpoint
+[3] https://app.patika.dev/courses/net-core/2-put-ve-post-endpoint
+[4] https://app.patika.dev/courses/net-core/3-delete-endpoint
+[5] https://app.patika.dev/courses/net-core/4-db-context-ile-crud-islemler
+[6] https://app.patika.dev/courses/net-core/5-auto-increment-id-kolonu
+[7] safakakin, https://github.com/safakakin/PatikaBookStoreWebApi, 30 Oct 2022
