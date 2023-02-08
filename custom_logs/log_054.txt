@@ -1,0 +1,4 @@
+"task_01" project was deleted in file explorer.
+Course webpage [1] was watched.
+Second task was completed by copying code lines from course video.
+[1] https://app.patika.dev/courses/net-core/5-odev-cozum-model-kullan%C4%B1m%C4%B1

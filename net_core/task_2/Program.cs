@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
-using task_1.DBOperations;
-namespace task_1 {
+using task_2.DBOperations;
+namespace task_2 {
 	public class Program {
 		public static void Main(string[] args) {
 			var builder = WebApplication.CreateBuilder(args);
