@@ -1,0 +1,9 @@
+After examining a webpage [1] of the course, "task_3" project was created.
+To write task project, code lines of previous course webpages [2] [3], were copied.
+A shared project [4] was benefited.
+Validation code lines for "Update" and "GetById" methods, were written.
+Validation code lines for "Delete" method was not written because it had been written already before in course [3] video.
+[1] https://app.patika.dev/courses/net-core/2-model-validasyonu-odev
+[2] https://app.patika.dev/courses/net-core/6-automapper
+[3] https://app.patika.dev/courses/net-core/1-model-validasyonu
+[4] https://github.com/safakakin/PatikaBookStoreWebApi
