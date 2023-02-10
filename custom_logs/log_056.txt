@@ -1,0 +1,13 @@
+Related courses's videos [1] [2] of possible next task [3], were examined and it was understood that course teacher still wanted a task project for completing her course project.
+Previous project code lines were copied into created "task_4" project.
+Related courses's [2] [4] [5] [6] code lines were copied into project.
+It was understood that 4th week content's first task of .Net Practicum, is not a task because there is only course video.
+"task_4" project was copied into "net_practicum" solution and it was renamed as "task_3" by benefiting a webpage.
+"task_3" project of "net_practicum" solution, will be submitted as 4th week content's first task which is fifth task of .Net Practicum.
+[1] https://app.patika.dev/courses/net-core/5-di-container-ile-logger-service-eklemek
+[2] https://app.patika.dev/courses/net-core/15-genre-controller-eklenmesi
+[3] https://app.patika.dev/courses/net-core/16-odev-author-controller-eklenmesi
+[4] https://app.patika.dev/courses/net-core/3-model-validasyonu-odev-cozum
+[5] https://app.patika.dev/courses/net-core/2-projeye-mw-eklenmesi
+[6] https://app.patika.dev/courses/net-core/5-di-container-ile-logger-service-eklemek
+[7] Lan Huang-MSFT, https://learn.microsoft.com/en-us/answers/questions/1028483/rename-solution-and-related-projects-in-a-asp-net, 29 Sep 2022 at 12:54 PM.
