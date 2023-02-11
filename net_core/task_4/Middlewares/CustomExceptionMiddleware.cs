@@ -3,7 +3,6 @@ using System.Diagnostics;
 using System.Dynamic;
 using System.Net;
 using task_4.Services;
-
 namespace task_4.Middlewares {
 	public class CustomExceptionMiddleware {
 		private readonly RequestDelegate _next;

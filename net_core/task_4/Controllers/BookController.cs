@@ -1,6 +1,5 @@
 ﻿using AutoMapper;
 using FluentValidation;
-using FluentValidation.Results;
 using Microsoft.AspNetCore.Mvc;
 using task_4.Application.BookOperations.Commands.CreateBook;
 using task_4.Application.BookOperations.Commands.DeleteBook;
@@ -9,9 +8,8 @@ using task_4.Application.BookOperations.Queries.GetBookDetail;
 using task_4.Application.BookOperations.Queries.GetBooks;
 using task_4.DBOperations;
 using static task_4.Application.BookOperations.Commands.CreateBook.CreateBookCommand;
-namespace task_4.Controllers
-{
-    [ApiController]
+namespace task_4.Controllers {
+	[ApiController]
 	[Route("[controller]s")]
 	public class BookController : ControllerBase {
 		private readonly BookStoreDbContext _context;

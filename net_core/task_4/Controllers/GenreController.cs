@@ -7,7 +7,6 @@ using task_4.Application.GenreOperations.Queries.GetGenreDetail;
 using task_4.Application.GenreOperations.Queries.GetGenres;
 using task_4.Application.GenreOperations.UpdateGenre;
 using task_4.DBOperations;
-
 namespace task_4.Controllers {
 	[ApiController]
 	[Route("[Controller]s")]

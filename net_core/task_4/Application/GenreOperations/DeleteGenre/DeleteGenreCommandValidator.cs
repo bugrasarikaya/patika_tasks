@@ -1,5 +1,4 @@
 ﻿using FluentValidation;
-
 namespace task_4.Application.GenreOperations.DeleteGenre {
 	public class DeleteGenreCommandValidator : AbstractValidator<DeleteGenreCommand> {
 		public DeleteGenreCommandValidator() {

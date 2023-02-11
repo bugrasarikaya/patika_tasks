@@ -1,0 +1,9 @@
+Task webpage [1] of .Net Core course, was read.
+Previous "task_4" project was started to be developed for new task.
+It was observed that Auto Mapper did not worked as expected on update operations.
+Usage of "ForMember" method, was examined on webpages [2] [3] [4].
+Task was completed by applying small changes on copied book classes for author classes.
+[1] https://app.patika.dev/courses/net-core/16-odev-author-controller-eklenmesi
+[2] Saravanan Ponnusamy, https://www.c-sharpcorner.com/article/what-is-automapper-in-asp-net-core/, 01 Jun 2021.
+[3] Alex Ovechkin, https://stackoverflow.com/questions/40545516/custom-mapping-with-automapper-where-a-field-in-destination-is-the-concatenation, 11 Nov 2016 at 10:49.
+[4] Sergey Berezovskiy, Community (Bot),https://stackoverflow.com/questions/21413273/automapper-convert-from-multiple-sources, 28 Jan 2014 at 18:28 (answered), 23 May 2017 at 12:26 (edited).
