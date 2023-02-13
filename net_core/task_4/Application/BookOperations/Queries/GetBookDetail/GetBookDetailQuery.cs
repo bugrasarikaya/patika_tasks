@@ -3,10 +3,10 @@ using Microsoft.EntityFrameworkCore;
 using task_4.DBOperations;
 namespace task_4.Application.BookOperations.Queries.GetBookDetail {
 	public class GetBookDetailQuery {
-		private readonly BookStoreDbContext _dbContext;
+		private readonly IBookStoreDbContext _dbContext;
 		private readonly IMapper _mapper;
 		public int BookID { get; set; }
-		public GetBookDetailQuery(BookStoreDbContext dbContext, IMapper mapper) {
+		public GetBookDetailQuery(IBookStoreDbContext dbContext, IMapper mapper) {
 			_dbContext = dbContext;
 			_mapper = mapper;
 		}

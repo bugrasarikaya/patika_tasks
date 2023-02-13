@@ -3,8 +3,8 @@ namespace task_4.Application.AuthorOperations.Commands.UpdateAuthor {
     public class UpdateAuthorCommand {
         public int AuthorID { get; set; }
         public UpdateAuthorModel Model { get; set; }
-        private readonly BookStoreDbContext _context;
-        public UpdateAuthorCommand(BookStoreDbContext dbContext) {
+        private readonly IBookStoreDbContext _context;
+        public UpdateAuthorCommand(IBookStoreDbContext dbContext) {
             _context = dbContext;
         }
         public void Handle() {

@@ -2,9 +2,9 @@
 using task_4.DBOperations;
 namespace task_4.Application.BookOperations.Commands.DeleteBook {
 	public class DeleteBookCommand {
-		private readonly BookStoreDbContext _dbContext;
+		private readonly IBookStoreDbContext _dbContext;
 		public int BookID { get; set; }
-		public DeleteBookCommand(BookStoreDbContext dbContext) {
+		public DeleteBookCommand(IBookStoreDbContext dbContext) {
 			_dbContext = dbContext;
 		}
 		public void Handle() {

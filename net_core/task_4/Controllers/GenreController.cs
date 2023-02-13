@@ -2,18 +2,19 @@
 using FluentValidation;
 using Microsoft.AspNetCore.Mvc;
 using task_4.Application.GenreOperations.Commands.CreateGenre;
-using task_4.Application.GenreOperations.DeleteGenre;
+using task_4.Application.GenreOperations.Commands.DeleteGenre;
+using task_4.Application.GenreOperations.Commands.UpdateGenre;
 using task_4.Application.GenreOperations.Queries.GetGenreDetail;
 using task_4.Application.GenreOperations.Queries.GetGenres;
-using task_4.Application.GenreOperations.UpdateGenre;
 using task_4.DBOperations;
-namespace task_4.Controllers {
-	[ApiController]
+namespace task_4.Controllers
+{
+    [ApiController]
 	[Route("[Controller]s")]
 	public class GenreController : ControllerBase {
-		private readonly BookStoreDbContext _context;
+		private readonly IBookStoreDbContext _context;
 		private readonly IMapper _mapper;
-		public GenreController(BookStoreDbContext context, IMapper mapper) {
+		public GenreController(IBookStoreDbContext context, IMapper mapper) {
 			_context = context;
 			_mapper = mapper;
 		}

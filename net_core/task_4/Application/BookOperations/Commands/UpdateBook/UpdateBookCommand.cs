@@ -3,8 +3,8 @@ namespace task_4.Application.BookOperations.Commands.UpdateBook {
 	public class UpdateBookCommand {
 		public int BookID { get; set; }
 		public UpdateBookModel Model { get; set; }
-		private readonly BookStoreDbContext _context;
-		public UpdateBookCommand(BookStoreDbContext dbContext) {
+		private readonly IBookStoreDbContext _context;
+		public UpdateBookCommand(IBookStoreDbContext dbContext) {
 			_context = dbContext;
 		}
 		public void Handle() {

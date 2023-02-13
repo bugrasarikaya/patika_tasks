@@ -2,10 +2,10 @@
 using task_4.DBOperations;
 namespace task_4.Application.AuthorOperations.Queries.GetAuthorDetail {
     public class GetAuthorDetailQuery {
-        private readonly BookStoreDbContext _dbContext;
+        private readonly IBookStoreDbContext _dbContext;
         private readonly IMapper _mapper;
         public int AuthorID { get; set; }
-        public GetAuthorDetailQuery(BookStoreDbContext dbContext, IMapper mapper) {
+        public GetAuthorDetailQuery(IBookStoreDbContext dbContext, IMapper mapper) {
             _dbContext = dbContext;
             _mapper = mapper;
         }

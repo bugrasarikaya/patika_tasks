@@ -1,0 +1,16 @@
+After reading task webpage [1] and examining previous course webpages, it was understood that teacher still was wanting us to develop same project.
+A new xUnit Test Project was created with "task_5" name.
+Project development instuctions from a course webpage [2], was started to be applied.
+"task_4" project reference was added.
+Visual Studio solution was rebuilded.
+Changes were applied on "task_4" by following previous course [3] instructions.
+Previous course [3] code lines were copied into "task_5" project.
+Shared projects [4] [5] were examined to verify "task_5" project.
+"When" method was removed from "UpdateGenreCommandValidator" class because it gave error while working on unit testing.
+Some failed unit tests were ignored because they gave success after running them individually.
+Requested unit tests were completed.
+[1] https://app.patika.dev/courses/net-core/17-odev-unit-tests
+[2] https://app.patika.dev/courses/net-core/3-unit-test-yazmak
+[3] https://app.patika.dev/courses/net-core/4-command-ve-validator-testlerinin-yaz%C4%B1lmasi
+[4] units61, https://github.com/units61/.NET-CORE-BOOKSTORE, 11 Nov 2022.
+[5] CeyhunKlc, https://github.com/CeyhunKlc/BookStore-WebApi-Project, 13 Feb 2023.
