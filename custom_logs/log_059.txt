@@ -1,0 +1,30 @@
+Task webpage [1] was read.,
+"task_6" Visual Studio solution with "movie_store" project, was created and project was an empty ASP.NET Core Web API.
+Related "task_4" project files were copied into current project because they were similar.
+"xUnitTests" project was created.
+Related "task_5" project files were copied into "xUnitTests" project because they were similar.
+Copied files, edited to adapt.
+"Program.cs" file was edited by benefiting "Program.cs" file of "task_4" project.
+NuGet packages were installed by copying package references into "csproj" files previous "csproj" files.
+Project reference section was copied into "xUnitTests.csproj" file from "task_5.csproj" and it was adapted.
+Movies' information was obtained from internet research.
+Instead of using "ICollection", "List" was used while creating an instance because an instance of "ICollection", could not be created.
+Most of copied files were deleted because adaptation errors could not be handled.
+"String.Join" method was found in a webpage [2] and it was used convert element of genre name list into one string.
+While trying to code  an implementation of updating movie, it was learnt that action can take class or List from HTTP body.
+"RuleEach" method was found in a webpage [3] and it was used to validate each element of a list.
+"Clear" method was found in a weboage [4] and it was used to erase list elements.
+"Ctrl + K + F" shortcut was learnt in a webpage [5].
+An occured error which has "System.ArgumentException: 'An item with the same key has already been added. Key: System.Object[]'" text, was resolved by using "Include" method while retrieving data by using LinQ.
+After testing a research result [6], it was understood that "ToList" method in "foreach" can resolve modified collection error whose text is "Collection was modified; enumeration operation may not execute".
+Usage of "Any" method with "Where" method, was benefited after examining a webpage [7].
+In mapping class, "ICollection<string>" property could not be mapped to string property and to resolve it, class collection was used after examining a webpage [8].
+A bug which is about removing duplicate elements after using "SaveChanges", occured and it could not be resolved.
+[1] https://app.patika.dev/courses/net-core/19-proje-1
+[2] Andrei, https://stackoverflow.com/questions/17420527/lambda-list-to-combine-string, 2 July 2013 at 8:10
+[3] https://docs.fluentvalidation.net/en/latest/collections.html
+[4] Mahesh Chand, https://www.c-sharpcorner.com/UploadFile/mahesh/delete-all-items-in-a-C-Sharp-list/, 08 Feb 2023.
+[5] Scott Warren, Rohit Gupta, https://stackoverflow.com/questions/15663447/difference-between-ctrl-k-d-and-ctrl-e-d, 10 Apr 2013 at 1:40 (answered), 16 Sep 2015 at 1:12 (edited).
+[6] JaredPar, Dale K, https://stackoverflow.com/questions/604831/collection-was-modified-enumeration-operation-may-not-execute, 3 Mar 2009 at 2:10 (answered), 29 Jun 2020 at 22:55 (edited).
+[7] Raphaël Althaus, https://stackoverflow.com/questions/12297751/linq-nested-where-clause, 6 Sep 2012 at 10:15.
+[8] Neffj, https://stackoverflow.com/questions/72236883/the-entity-type-liststring-requires-a-primary-key-to-be-defined, 14 May 2022 at 4:09.
