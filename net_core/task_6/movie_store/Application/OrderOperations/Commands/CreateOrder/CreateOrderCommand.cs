@@ -15,6 +15,7 @@ namespace movie_store.Application.OrderOperations.Commands.CreateOrder {
 			foreach (int movie_ID in Model.MovieIDs) {
 				Movie? movie = context.Movies.SingleOrDefault(m => m.ID == movie_ID);
 				if (movie == null) throw new InvalidOperationException("Movie could not be found.");
+				customer.Movies.Add(movie);
 				order.Movies.Add(movie);
 				order.Cost += movie.Price;
 			}

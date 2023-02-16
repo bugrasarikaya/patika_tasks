@@ -11,7 +11,7 @@ namespace xUnitTests.Application.AuthorOperations.Commands.CreateAuthor {
 		private readonly BookStoreDbContext _context;
 		private readonly IMapper _mapper;
 		public CreateAuthorCommandTests(CommonTestFixture testFixture) {
-			_context = testFixture.Context;
+			_context = testFixture.context;
 			_mapper = testFixture.Mapper;
 		}
 		[Fact]

@@ -8,7 +8,7 @@ namespace xUnitTests.Application.AuthorOperations.Commands.UpadteAuthor {
 	public class UpdateAuthorCommandTests : IClassFixture<CommonTestFixture> {
 		private readonly BookStoreDbContext _context;
 		public UpdateAuthorCommandTests(CommonTestFixture testFixture) {
-			_context = testFixture.Context;
+			_context = testFixture.context;
 		}
 		[Fact]
 		public void WhenNotExistAuthortIDIsGiven_InvalidOperationException_ShouldBeReturn() {

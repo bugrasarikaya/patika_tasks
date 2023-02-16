@@ -6,7 +6,7 @@ namespace xUnitTests.Application.GenreOperations.Commands.DeleteGenre {
 	public class DeleteGenreCommandTests : IClassFixture<CommonTestFixture> {
 		private readonly BookStoreDbContext _context;
 		public DeleteGenreCommandTests(CommonTestFixture testFixture) {
-			_context = testFixture.Context;
+			_context = testFixture.context;
 		}
 		[Fact]
 		public void WhenNotExistGenretIDIsGiven_InvalidOperationException_ShouldBeReturn() {

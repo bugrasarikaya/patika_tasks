@@ -8,7 +8,7 @@ namespace xUnitTests.Application.BookOperations.Queries.GetBookDetail {
 		private readonly BookStoreDbContext _context;
 		private readonly IMapper _mapper;
 		public GetBookDetailQueryTests(CommonTestFixture testFixture) {
-			_context = testFixture.Context;
+			_context = testFixture.context;
 			_mapper = testFixture.Mapper;
 		}
 		[Fact]

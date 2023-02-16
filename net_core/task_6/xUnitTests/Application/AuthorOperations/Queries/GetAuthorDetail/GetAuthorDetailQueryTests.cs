@@ -8,7 +8,7 @@ namespace xUnitTests.Application.AuthorOperations.Queries.GetAuthorDetail {
 		private readonly BookStoreDbContext _context;
 		private readonly IMapper _mapper;
 		public GetAuthorDetailQueryTests(CommonTestFixture testFixture) {
-			_context = testFixture.Context;
+			_context = testFixture.context;
 			_mapper = testFixture.Mapper;
 		}
 		[Fact]

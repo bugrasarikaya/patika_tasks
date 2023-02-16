@@ -7,6 +7,7 @@ using movie_store.Application.OrderOperations.Queries.GetOrder;
 using movie_store.DBOperations;
 using static movie_store.Application.OrderOperations.Commands.CreateOrder.CreateOrderCommand;
 using static movie_store.Application.OrderOperations.Queries.GetOrder.GetOrderQuery;
+using Microsoft.AspNetCore.Authorization;
 namespace Order_store.Controllers {
 	[ApiController]
 	[Route("[controller]s")]
@@ -33,6 +34,7 @@ namespace Order_store.Controllers {
 			result = query.Handle();
 			return Ok(result);
 		}
+		[Authorize]
 		[HttpPost]
 		public IActionResult CreateOrder([FromBody] CreateOrderModel create_order_model) {
 			CreateOrderCommand command = new CreateOrderCommand(context);

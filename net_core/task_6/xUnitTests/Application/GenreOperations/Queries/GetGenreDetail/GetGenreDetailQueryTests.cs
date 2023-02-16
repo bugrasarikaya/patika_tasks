@@ -8,7 +8,7 @@ namespace xUnitTests.Application.GenreOperations.Queries.GetGenreDetail {
 		private readonly BookStoreDbContext _context;
 		private readonly IMapper _mapper;
 		public GetGenreDetailQueryTests(CommonTestFixture testFixture) {
-			_context = testFixture.Context;
+			_context = testFixture.context;
 			_mapper = testFixture.Mapper;
 		}
 		[Fact]

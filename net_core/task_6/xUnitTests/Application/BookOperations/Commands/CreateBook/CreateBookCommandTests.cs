@@ -10,7 +10,7 @@ namespace xUnitTests.Application.BookOperations.Commands.CreateBook {
 		private readonly BookStoreDbContext _context;
 		private readonly IMapper _mapper;
 		public CreateBookCommandTests(CommonTestFixture testFixture) {
-			_context = testFixture.Context;
+			_context = testFixture.context;
 			_mapper = testFixture.Mapper;
 		}
 		[Fact]

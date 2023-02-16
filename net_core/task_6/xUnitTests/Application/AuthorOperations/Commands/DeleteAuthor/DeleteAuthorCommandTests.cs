@@ -7,7 +7,7 @@ namespace xUnitTests.Application.AuthorOperations.Commands.DeleteAuthor {
 	public class DeleteAuthorCommandTests : IClassFixture<CommonTestFixture> {
 		private readonly BookStoreDbContext _context;
 		public DeleteAuthorCommandTests(CommonTestFixture testFixture) {
-			_context = testFixture.Context;
+			_context = testFixture.context;
 		}
 		[Fact]
 		public void WhenNotExistAuthortIDIsGiven_InvalidOperationException_ShouldBeReturn() {

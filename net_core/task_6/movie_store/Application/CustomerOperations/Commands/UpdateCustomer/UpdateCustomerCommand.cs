@@ -9,10 +9,13 @@ namespace movie_store.Application.CustomerOperations.Commands.UpdateCustomer {
 			this.context = context;
 		}
 		public void Handle() {
-			Customer? customer = context.Customers.SingleOrDefault(m => m.ID == CustomerID);
+			Customer? customer = context.Customers.SingleOrDefault(c => c.ID == CustomerID);
 			if (customer == null) throw new InvalidOperationException("Customer could not be found.");
 			customer.Name = Model.Name != default ? Model.Name : customer.Name;
 			customer.Surname = Model.Surname != default ? Model.Surname : customer.Surname;
+			customer.Email = Model.Email != default ? Model.Email : customer.Email;
+			if(context.Customers.Any(c => c.Email == customer.Email)) throw new InvalidOperationException("Customer email already exists.");
+			customer.Password = Model.Password != default ? Model.Password : customer.Password;
 			customer.Movies.Clear();
 			foreach (int movie_ID in Model.MovieIDs) {
 				Movie? movie = context.Movies.SingleOrDefault(m => m.ID == movie_ID);
@@ -30,6 +33,8 @@ namespace movie_store.Application.CustomerOperations.Commands.UpdateCustomer {
 		public class UpdateCustomerModel {
 			public string? Name { get; set; }
 			public string? Surname { get; set; }
+			public string? Email { get; set; }
+			public string? Password { get; set; }
 			public List<int> MovieIDs { get; set; } = null!;
 			public List<int> GenreIDs { get; set; } = null!;
 		}

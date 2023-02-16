@@ -8,7 +8,7 @@ namespace xUnitTests.Application.BookOperations.Commands.UpadteBook {
 	public class UpdateBookCommandTests : IClassFixture<CommonTestFixture> {
 		private readonly BookStoreDbContext _context;
 		public UpdateBookCommandTests(CommonTestFixture testFixture) {
-			_context = testFixture.Context;
+			_context = testFixture.context;
 		}
 		[Fact]
 		public void WhenNotExistBooktIDIsGiven_InvalidOperationException_ShouldBeReturn() {

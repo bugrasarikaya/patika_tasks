@@ -1,0 +1,13 @@
+Previous bug which is about removing duplicate elements after using "SaveChanges", was resolved by adding related class properties in entity classes.
+For implementing a login system, previous course webpage's [1] [2] code lines were written.
+A comment [3] was benefited to resolve a version problem.
+By benefiting 4 sources [4] [5] [6] [7], Swagger implementation for authorization, was added.
+Token system was completed.
+Thanks to EF Core, duplicate items could not be instered into entity lists.
+[1] https://app.patika.dev/courses/net-core/1-token-bazl%C4%B1-kimlik-dogrulama
+[2] https://app.patika.dev/courses/net-core/2-refresh-token-kullan%C4%B1m%C4%B1
+[3] sametcelik, https://app.patika.dev/courses/net-core/1-token-bazl%C4%B1-kimlik-dogrulama, 26.06.22.
+[4] apkos, https://app.patika.dev/courses/net-core/1-token-bazl%C4%B1-kimlik-dogrulama, 10.11.22.
+[5] Jay Krishna Reddy, https://www.c-sharpcorner.com/article/jwt-validation-and-authorization-in-net-5-0/, 13 Jul 2021.
+[6] Csharp Space, https://youtu.be/y-xxfvhEqEU, 24 September 2022.
+[7] Joydip Kanjilal, https://www.infoworld.com/article/3650668/implement-authorization-for-swagger-in-aspnet-core-6.html, 24 February 2022 at 3:00 AM PST.

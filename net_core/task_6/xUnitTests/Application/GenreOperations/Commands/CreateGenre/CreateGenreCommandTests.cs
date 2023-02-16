@@ -9,7 +9,7 @@ namespace xUnitTests.Application.GenreOperations.Commands.CreateGenre {
 	public class CreateGenreCommandTests : IClassFixture<CommonTestFixture> {
 		private readonly BookStoreDbContext _context;
 		public CreateGenreCommandTests(CommonTestFixture testFixture) {
-			_context = testFixture.Context;
+			_context = testFixture.context;
 		}
 		[Fact]
 		public void WhenAlreadyExistGenretTitleIsGiven_InvalidOperationException_ShouldBeReturn() {

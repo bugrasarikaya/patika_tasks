@@ -1,6 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using movie_store.Entities;
-using System.IO;
 namespace movie_store.DBOperations {
 	public class DataGenerator {
 		public static void Initialize(IServiceProvider serviceProvider) {
@@ -18,11 +17,11 @@ namespace movie_store.DBOperations {
 					new Actor { ID = 10, Name = "Johnny", Surname = "Depp" }
 				);
 				context.Customers.AddRange(
-					new Customer { ID = 1, Name = "Ash", Surname = "Rivers" },
-					new Customer { ID = 2, Name = "Heather", Surname = "Poe" },
-					new Customer { ID = 3, Name = "Isaac", Surname = "Abrams" },
-					new Customer { ID = 4, Name = "Jack", Surname = "Smiling" },
-					new Customer { ID = 5, Name = "Jeanette", Surname = "Voerman" }
+					new Customer { ID = 1, Name = "Ash", Surname = "Rivers", Email = "ashrivers@schrecknet.vtm", Password = "12345678" },
+					new Customer { ID = 2, Name = "Heather", Surname = "Poe", Email = "heatherpoe@schrecknet.vtm", Password = "12345678" },
+					new Customer { ID = 3, Name = "Isaac", Surname = "Abrams", Email = "isaacabrams@schrecknet.vtm", Password = "12345678" },
+					new Customer { ID = 4, Name = "Jack", Surname = "Smiling", Email = "jacksmiling@schrecknet.vtm", Password = "12345678" },
+					new Customer { ID = 5, Name = "Jeanette", Surname = "Voerman", Email = "jeanettevoerman@schrecknet.vtm", Password = "12345678" }
 				);
 				context.Directors.AddRange(
 					new Director { ID = 1, Name = "Len", Surname = "Wiseman" },
@@ -59,7 +58,8 @@ namespace movie_store.DBOperations {
 					new Order { ID = 5, DateTime = new DateTime(2020, 01, 05) }
 				);
 				context.SaveChanges();
-				context.Actors.SingleOrDefault(a => a.ID == 1)!.Movies.Add(context.Movies.SingleOrDefault(m => m.ID == 2)!); // Applying actor relations.
+				context.Actors.SingleOrDefault(a => a.ID == 1)!.Movies.Add(context.Movies.SingleOrDefault(m => m.ID == 1)!); // Applying actor relations.
+				context.Actors.SingleOrDefault(a => a.ID == 1)!.Movies.Add(context.Movies.SingleOrDefault(m => m.ID == 2)!); 
 				context.Actors.SingleOrDefault(a => a.ID == 2)!.Movies.Add(context.Movies.SingleOrDefault(m => m.ID == 1)!);
 				context.Actors.SingleOrDefault(a => a.ID == 2)!.Movies.Add(context.Movies.SingleOrDefault(m => m.ID == 3)!);
 				context.Actors.SingleOrDefault(a => a.ID == 3)!.Movies.Add(context.Movies.SingleOrDefault(m => m.ID == 1)!);

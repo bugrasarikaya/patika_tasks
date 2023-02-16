@@ -6,7 +6,7 @@ namespace xUnitTests.Application.BookOperations.Commands.DeleteBook {
 	public class DeleteBookCommandTests : IClassFixture<CommonTestFixture> {
 		private readonly BookStoreDbContext _context;
 		public DeleteBookCommandTests(CommonTestFixture testFixture) {
-			_context = testFixture.Context;
+			_context = testFixture.context;
 		}
 		[Fact]
 		public void WhenNotExistBooktIDIsGiven_InvalidOperationException_ShouldBeReturn() {

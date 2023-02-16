@@ -8,7 +8,7 @@ namespace xUnitTests.Application.GenreOperations.Commands.UpadteGenre {
 	public class UpdateGenreCommandTests : IClassFixture<CommonTestFixture> {
 		private readonly BookStoreDbContext _context;
 		public UpdateGenreCommandTests(CommonTestFixture testFixture) {
-			_context = testFixture.Context;
+			_context = testFixture.context;
 		}
 		[Fact]
 		public void WhenNotExistGenretIDIsGiven_InvalidOperationException_ShouldBeReturn() {

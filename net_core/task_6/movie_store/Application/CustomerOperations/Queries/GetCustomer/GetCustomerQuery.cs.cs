@@ -20,6 +20,8 @@ namespace movie_store.Application.CustomerOperations.Queries.GetCustomer {
 		public class GetCustomerViewModel {
 			public string? Name { get; set; }
 			public string? Surname { get; set; }
+			public string? Email { get; set; }
+			public string? Password { get; set; }
 			public string? Movies { get; set; }
 			public string? Genres { get; set; }
 		}
