@@ -12,6 +12,7 @@ namespace movie_store.Application.GenreOperations.Commands.UpdateGenre {
 			Genre? Genre = context.Genres.SingleOrDefault(m => m.ID == GenreID);
 			if (Genre == null) throw new InvalidOperationException("Genre could not be found.");
 			Genre.Name = Model.Name != default ? Model.Name : Genre.Name;
+			if (context.Genres.Any(g => g.Name == Model.Name)) throw new InvalidOperationException("Genre already exists.");
 			context.SaveChanges();
 		}
 		public class UpdateGenreModel {

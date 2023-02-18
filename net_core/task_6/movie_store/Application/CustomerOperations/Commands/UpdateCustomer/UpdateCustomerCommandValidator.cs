@@ -7,8 +7,6 @@ namespace movie_store.Application.CustomerOperations.Commands.UpdateCustomer {
 			RuleFor(command => command.Model.Surname).NotEmpty().MinimumLength(2);
 			RuleFor(command => command.Model.Email).NotEmpty().MinimumLength(8);
 			RuleFor(command => command.Model.Password).NotEmpty().MinimumLength(8);
-			RuleFor(command => command.Model.MovieIDs).NotNull();
-			RuleForEach(command => command.Model.MovieIDs).GreaterThan(0);
 			RuleFor(command => command.Model.GenreIDs).NotNull();
 			RuleForEach(command => command.Model.GenreIDs).GreaterThan(0);
 		}

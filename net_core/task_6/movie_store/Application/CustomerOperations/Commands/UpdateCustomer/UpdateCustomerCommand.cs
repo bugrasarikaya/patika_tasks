@@ -14,19 +14,12 @@ namespace movie_store.Application.CustomerOperations.Commands.UpdateCustomer {
 			customer.Name = Model.Name != default ? Model.Name : customer.Name;
 			customer.Surname = Model.Surname != default ? Model.Surname : customer.Surname;
 			customer.Email = Model.Email != default ? Model.Email : customer.Email;
-			if(context.Customers.Any(c => c.Email == customer.Email)) throw new InvalidOperationException("Customer email already exists.");
+			if (context.Customers.Any(c => c.Email == customer.Email)) throw new InvalidOperationException("Customer email already exists.");
 			customer.Password = Model.Password != default ? Model.Password : customer.Password;
-			customer.Movies.Clear();
-			foreach (int movie_ID in Model.MovieIDs) {
-				Movie? movie = context.Movies.SingleOrDefault(m => m.ID == movie_ID);
-				if (movie == null) throw new InvalidOperationException("Movie could not be found.");
-				customer.Movies.Add(movie);
-			}
-			customer.Genres.Clear();
+			context.CustomerGenres.RemoveRange(context.CustomerGenres.Where(cg => cg.CustomerID == CustomerID));
 			foreach (int genre_ID in Model.GenreIDs) {
-				Genre? genre = context.Genres.SingleOrDefault(g => g.ID == genre_ID);
-				if (genre == null) throw new InvalidOperationException("Genre could not be found.");
-				customer.Genres.Add(genre);
+				if (!context.Genres.Any(g => g.ID == genre_ID)) throw new InvalidOperationException("Genre could not be found.");
+				context.CustomerGenres.Add(new CustomerGenre { CustomerID = CustomerID, GenreID = genre_ID });
 			}
 			context.SaveChanges();
 		}
@@ -35,7 +28,6 @@ namespace movie_store.Application.CustomerOperations.Commands.UpdateCustomer {
 			public string? Surname { get; set; }
 			public string? Email { get; set; }
 			public string? Password { get; set; }
-			public List<int> MovieIDs { get; set; } = null!;
 			public List<int> GenreIDs { get; set; } = null!;
 		}
 	}

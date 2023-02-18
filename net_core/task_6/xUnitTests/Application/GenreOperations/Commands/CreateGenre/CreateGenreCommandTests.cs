@@ -7,30 +7,32 @@ using xUnitTests.TestSetup;
 using static movie_store.Application.GenreOperations.Commands.CreateGenre.CreateGenreCommand;
 namespace xUnitTests.Application.GenreOperations.Commands.CreateGenre {
 	public class CreateGenreCommandTests : IClassFixture<CommonTestFixture> {
-		private readonly BookStoreDbContext _context;
-		public CreateGenreCommandTests(CommonTestFixture testFixture) {
-			_context = testFixture.context;
+		private readonly MovieStoreDbContext context;
+		private readonly IMapper mapper;
+		public CreateGenreCommandTests(CommonTestFixture test_fixture) {
+			context = test_fixture.Context;
+			mapper = test_fixture.Mapper;
 		}
 		[Fact]
-		public void WhenAlreadyExistGenretTitleIsGiven_InvalidOperationException_ShouldBeReturn() {
-			var Genre = new Genre() { Name = "Test_WhenAlreadyExistGenretTitleIsGiven_InvalidOperationException_ShouldBeReturn", IsActive = true };
-			_context.Genres.Add(Genre);
-			_context.SaveChanges();
-			CreateGenreCommand command = new CreateGenreCommand(_context);
-			command.Model = new CreateGenreModel() { Name = Genre.Name };
+		public void WhenAlreadyExistGenreIsGiven_InvalidOperationException_ShouldBeReturn() {
+			Genre genre = new Genre() { Name = "Sci-Fi" };
+			context.Genres.Add(genre);
+			context.SaveChanges();
+			CreateGenreCommand command = new CreateGenreCommand(context, mapper);
+			command.Model = new CreateGenreModel() { Name = genre.Name };
 			FluentActions
 				.Invoking(() => command.Handle())
-				.Should().Throw<InvalidOperationException>().And.Message.Should().Be("Kitap Türü Zaten Mevcut.");
+				.Should().Throw<InvalidOperationException>().And.Message.Should().Be("Genre already exists.");
 		}
 		[Fact]
 		public void WhenValidInputAreGiven_Genre_ShouldBeCreated() {
-			CreateGenreCommand command = new CreateGenreCommand(_context);
-			CreateGenreModel model = new CreateGenreModel() { Name = "Test_WhenValidInputAreGiven_Genre_ShouldBeCreated"};
+			CreateGenreCommand command = new CreateGenreCommand(context, mapper);
+			CreateGenreModel model = new CreateGenreModel() { Name = "Sci-Fi" };
 			command.Model = model;
 			FluentActions.Invoking(() => command.Handle()).Invoke();
-			var Genre = _context.Genres.SingleOrDefault(Genre => Genre.Name == model.Name);
-			Genre.Should().NotBeNull();
-			Genre.Name.Should().Be(model.Name);
+			Genre? genre = context.Genres.SingleOrDefault(g => g.Name == model.Name);
+			genre?.Should().NotBeNull();
+			genre?.Name.Should().Be(model.Name);
 		}
 	}
 }

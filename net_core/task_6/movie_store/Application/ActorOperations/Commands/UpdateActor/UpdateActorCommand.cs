@@ -13,26 +13,12 @@ namespace movie_store.Application.ActorOperations.Commands.UpdateActor {
 			if (actor == null) throw new InvalidOperationException("Actor could not be found.");
 			actor.Name = Model.Name != default ? Model.Name : actor.Name;
 			actor.Surname = Model.Surname != default ? Model.Surname : actor.Surname;
-			foreach (Movie actor_movie in actor.Movies.ToList()) {
-				bool existing_movie = false;
-				foreach (int movie_ID in Model.MovieIDs) {
-					Movie? movie = context.Movies.SingleOrDefault(m => m.ID == movie_ID);
-					if (movie == null) throw new InvalidOperationException("Movie could not be found.");
-					if (!movie.Actors.Any(m => m.ID == actor.ID)) movie.Actors.Add(actor);
-					if (!actor.Movies.Any(a => a.ID == movie_ID)) actor.Movies.Add(movie);
-					if (actor_movie.ID == movie_ID) existing_movie |= true;
-				}
-				if (!existing_movie) {
-					actor_movie.Actors.Remove(actor);
-					actor.Movies.Remove(actor_movie);
-				}
-			}
+			if (context.Actors.Any(a => a.Name == actor.Name && a.Surname == actor.Surname)) throw new InvalidOperationException("Actor already exists.");
 			context.SaveChanges();
 		}
 		public class UpdateActorModel {
 			public string? Name { get; set; }
 			public string? Surname { get; set; }
-			public List<int> MovieIDs { get; set; } = null!;
 		}
 	}
 }

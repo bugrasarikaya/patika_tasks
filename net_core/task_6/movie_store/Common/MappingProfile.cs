@@ -25,18 +25,18 @@ namespace movie_store.Common {
 			CreateMap<CreateDirectorModel, Director>();
 			CreateMap<CreateGenreModel, Genre>();
 			CreateMap<CreateMovieModel, Movie>();
-			CreateMap<Actor, GetActorViewModel>().ForMember(dest => dest.Movies, opt => opt.MapFrom(src => string.Join(", ", src.Movies.Select(m => m.Name))));
-			CreateMap<Actor, GetActorsViewModel>().ForMember(dest => dest.Movies, opt => opt.MapFrom(src => string.Join(", ", src.Movies.Select(m => m.Name))));
-			CreateMap<Director, GetDirectorViewModel>().ForMember(dest => dest.Movies, opt => opt.MapFrom(src => string.Join(", ", src.Movies.Select(m => m.Name))));
-			CreateMap<Director, GetDirectorsViewModel>().ForMember(dest => dest.Movies, opt => opt.MapFrom(src => string.Join(", ", src.Movies.Select(m => m.Name))));
-			CreateMap<Customer, GetCustomerViewModel>().ForMember(dest => dest.Movies, opt => opt.MapFrom(src => string.Join(", ", src.Movies.Select(m => m.Name)))).ForMember(dest => dest.Genres, opt => opt.MapFrom(src => string.Join(", ", src.Genres.Select(g => g.Name))));
-			CreateMap<Customer, GetCustomersViewModel>().ForMember(dest => dest.Movies, opt => opt.MapFrom(src => string.Join(", ", src.Movies.Select(m => m.Name)))).ForMember(dest => dest.Genres, opt => opt.MapFrom(src => string.Join(", ", src.Genres.Select(g => g.Name))));
+			CreateMap<Actor, GetActorViewModel>();
+			CreateMap<Actor, GetActorsViewModel>();
+			CreateMap<Director, GetDirectorViewModel>();
+			CreateMap<Director, GetDirectorsViewModel>();
+			CreateMap<Customer, GetCustomerViewModel>();
+			CreateMap<Customer, GetCustomersViewModel>();
 			CreateMap<Genre, GetGenreViewModel>();
 			CreateMap<Genre, GetGenresViewModel>();
-			CreateMap<Movie, GetMovieViewModel>().ForMember(dest => dest.Genres, opt => opt.MapFrom(src => string.Join(", ", src.Genres.Select(g => g.Name)))).ForMember(dest => dest.Director, opt => opt.MapFrom(src => string.Format("{0} {1}", src.Director.Name, src.Director.Surname))).ForMember(dest => dest.Actors, opt => opt.MapFrom(src => string.Join(", ", src.Actors.Select(a => string.Format("{0} {1}", a.Name, a.Surname)))));
-			CreateMap<Movie, GetMoviesViewModel>().ForMember(dest => dest.Genres, opt => opt.MapFrom(src => string.Join(", ", src.Genres.Select(g => g.Name)))).ForMember(dest => dest.Director, opt => opt.MapFrom(src => string.Format("{0} {1}", src.Director.Name, src.Director.Surname))).ForMember(dest => dest.Actors, opt => opt.MapFrom(src => string.Join(", ", src.Actors.Select(a => string.Format("{0} {1}", a.Name, a.Surname)))));
-			CreateMap<Order, GetOrderViewModel>().ForMember(dest => dest.Customer, opt => opt.MapFrom(src => string.Format("{0} {1}", src.Customer.Name, src.Customer.Surname))).ForMember(dest => dest.Movies, opt => opt.MapFrom(src => string.Join(", ", src.Movies.Select(m => m.Name))));
-			CreateMap<Order, GetOrdersViewModel>().ForMember(dest => dest.Customer, opt => opt.MapFrom(src => string.Format("{0} {1}", src.Customer.Name, src.Customer.Surname))).ForMember(dest => dest.Movies, opt => opt.MapFrom(src => string.Join(", ", src.Movies.Select(m => m.Name))));
+			CreateMap<Movie, GetMovieViewModel>();
+			CreateMap<Movie, GetMoviesViewModel>();
+			CreateMap<Order, GetOrderViewModel>();
+			CreateMap<Order, GetOrdersViewModel>();
 		}
 	}
 }

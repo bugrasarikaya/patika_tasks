@@ -1,7 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
-using movie_store.DBOperations;
+﻿using movie_store.DBOperations;
 using movie_store.Entities;
-using System.Collections.Generic;
 namespace movie_store.Application.MovieOperations.Commands.UpdateMovie {
 	public class UpdateMovieCommand {
 		public int MovieID { get; set; }
@@ -15,39 +13,32 @@ namespace movie_store.Application.MovieOperations.Commands.UpdateMovie {
 			if (movie == null) throw new InvalidOperationException("Movie could not be found.");
 			movie.Name = Model.Name != default ? Model.Name : movie.Name;
 			movie.Year = Model.Year != default ? Model.Year : movie.Year;
-			Director? director = context.Directors.SingleOrDefault(d => d.ID == Model.DirectorID);
-			if (director == null) throw new InvalidOperationException("Director could not be found");
-			movie.Director = director;
-			foreach (Actor movie_actor in movie.Actors.ToList()) {
-				bool existing_actor = false;
-				foreach (int actor_ID in Model.ActorIDs) {
-					Actor? actor = context.Actors.SingleOrDefault(a => a.ID == actor_ID);
-					if (actor == null) throw new InvalidOperationException("Actor could not be found.");
-					if (!actor.Movies.Any(m => m.ID == movie.ID)) actor.Movies.Add(movie);
-					if (!movie.Actors.Any(a => a.ID == actor_ID)) movie.Actors.Add(actor);
-					if (movie_actor.ID == actor_ID) existing_actor |= true;
-				}
-				if (!existing_actor) {
-					movie_actor.Movies.Remove(movie);
-					movie.Actors.Remove(movie_actor);
-				}
-			}
-			movie.Genres.Clear();
-			foreach (int genre_ID in Model.GenreIDs) {
-				Genre? genre = context.Genres.SingleOrDefault(g => g.ID == genre_ID);
-				if (genre == null) throw new InvalidOperationException("Genre could not be found.");
-				movie.Genres.Add(genre);
-			}
 			movie.Price = Model.Price != default ? Model.Price : movie.Price;
+
+			context.MovieActors.RemoveRange(context.MovieActors.Where(ma => ma.MovieID == MovieID));
+			foreach (int actor_ID in Model.ActorIDs) {
+				if (!context.Actors.Any(a => a.ID == actor_ID)) throw new InvalidOperationException("Actor could not be found.");
+				context.MovieActors.Add(new MovieActor { MovieID = MovieID, ActorID = actor_ID });
+			}
+			context.MovieDirectors.RemoveRange(context.MovieDirectors.Where(md => md.MovieID == MovieID));
+			foreach (int director_ID in Model.DirectorIDs) {
+				if (!context.Directors.Any(d => d.ID == director_ID)) throw new InvalidOperationException("Director could not be found.");
+				context.MovieDirectors.Add(new MovieDirector { MovieID = MovieID, DirectorID = director_ID });
+			}
+			context.MovieGenres.RemoveRange(context.MovieGenres.Where(mg => mg.MovieID == MovieID));
+			foreach (int genre_ID in Model.GenreIDs) {
+				if (!context.Genres.Any(g => g.ID == genre_ID)) throw new InvalidOperationException("Genre could not be found.");
+				context.MovieGenres.Add(new MovieGenre { MovieID = MovieID, GenreID = genre_ID });
+			}
 			context.SaveChanges();
 		}
 		public class UpdateMovieModel {
 			public string? Name { get; set; }
 			public int Year { get; set; }
-			public int DirectorID { get; set; }
-			public List<int> ActorIDs { get; set; } = null!;
-			public List<int> GenreIDs { get; set; } = null!;
 			public double Price { get; set; }
+			public List<int> ActorIDs { get; set; } = null!;
+			public List<int> DirectorIDs { get; set; } = null!;
+			public List<int> GenreIDs { get; set; } = null!;
 		}
 	}
 }

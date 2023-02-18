@@ -17,6 +17,7 @@ namespace movie_store.Application.GenreOperations.Queries.GetGenre {
 			return view_model;
 		}
 		public class GetGenreViewModel {
+			public int ID { get; set; }
 			public string? Name { get; set; }
 		}
 	}

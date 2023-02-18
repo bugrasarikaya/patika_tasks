@@ -10,7 +10,7 @@ namespace movie_store.Application.DirectorOperations.Commands.DeleteDirector {
 		public void Handle() {
 			Director? Director = context.Directors.SingleOrDefault(m => m.ID == DirectorID);
 			if (Director == null) throw new InvalidOperationException("Director could not be found.");
-			if (context.Movies.Any(m => m.Director != null && m.Director.ID == DirectorID)) throw new InvalidOperationException("Director exists in a movie.");
+			if (context.MovieDirectors.Any(md => md.DirectorID == DirectorID)) throw new InvalidOperationException("Director exists in a movie.");
 			context.Directors.Remove(Director);
 			context.SaveChanges();
 		}

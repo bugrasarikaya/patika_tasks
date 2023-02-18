@@ -1,0 +1,17 @@
+An attempt was started to crate additional entities, was started for resolving previous duplicate key issue.
+A method was found in a webpage [1] and it was used for retrieving single column value form query.
+In a webpage, naming conventions of "id", were examined.
+"Count()" method of Linq was found in a webpage [3] and it was used for retrieving query result count.
+In a webpage [4], it was learnt that last ID can be retrieved from last added object after using "SaveChanges" method.
+Modification of project, was completed.
+Thanks to a webpage [5], instead of InlineData, MemberData was used for inserting a List.
+Most of all tests, failed when they were runned together and a solution from a webpage [6], was tried to resolve this but it did not work as expected.
+While testing unit tests independently, detected bugs were fixed.
+Suprisingly creating order operations did not give an error because "[Authorize]" attribute was set to creating order action of order controller.
+Unit tests of token operations, were skipped.
+[1] Christofer Eliasson, https://stackoverflow.com/questions/9054609/how-to-select-a-single-column-with-entity-framework, 28 Jan 2019 at 9:26.
+[2] briancaos, https://briancaos.wordpress.com/2019/09/05/id-or-id-naming-conventions-in-code/, 5 September 2019.
+[3] Andrei, Sonu K, https://stackoverflow.com/questions/6330682/select-count-in-linq-to-sql-c-sharp, 13 Jun 2011 at 12:57, 25 Jan 2022 at 5:47.
+[4] Steven, https://stackoverflow.com/questions/4068084/how-to-find-an-identity-of-the-last-inserted-row-in-entity-framework, Jul 8, 2019 at 7:36.
+[5] Ids van der Zee, behnam shateri, https://stackoverflow.com/questions/57823568/how-to-provide-listint-for-a-data-theory-inlinedata, Sep 6, 2019 at 14:51,  Mar 28, 2022 at 12:34.
+[6] Nate Barbettini, https://stackoverflow.com/questions/38890269/how-to-isolate-ef-inmemory-database-per-xunit-test, Aug 11, 2016 at 13:19.

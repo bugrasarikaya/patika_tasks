@@ -10,11 +10,12 @@ namespace movie_store.Application.GenreOperations.Queries.GetGenres {
 			this.mapper = mapper;
 		}
 		public List<GetGenresViewModel> Handle() {
-			List<Genre>? genre_list = context.Genres.OrderBy(g => g.ID).ToList();
-			List<GetGenresViewModel> view_model = mapper.Map<List<GetGenresViewModel>>(genre_list);
+			List<Genre>? list_genre = context.Genres.OrderBy(g => g.ID).ToList();
+			List<GetGenresViewModel> view_model = mapper.Map<List<GetGenresViewModel>>(list_genre);
 			return view_model;
 		}
 		public class GetGenresViewModel {
+			public int ID { get; set; }
 			public string? Name { get; set; }
 		}
 	}

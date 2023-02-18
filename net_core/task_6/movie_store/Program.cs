@@ -15,7 +15,6 @@ namespace movie_store {
 			ConfigurationManager configuration = builder.Configuration;
 			builder.Services.AddControllers();
 			builder.Services.AddEndpointsApiExplorer();
-			//builder.Services.AddSwaggerGen();
 			builder.Services.AddSwaggerGen(options => {
 				options.SwaggerDoc("v1", new OpenApiInfo { Title = "movie_store", Version = "v1" });
 				options.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme {

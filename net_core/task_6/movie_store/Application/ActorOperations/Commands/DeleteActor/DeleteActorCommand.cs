@@ -11,7 +11,7 @@ namespace movie_store.Application.ActorOperations.Commands.DeleteActor {
 		public void Handle() {
 			Actor? actor = context.Actors.SingleOrDefault(m => m.ID == ActorID);
 			if (actor == null) throw new InvalidOperationException("Actor could not be found.");
-			if (context.Movies.Any(m => m.Actors.Any(a => a.ID == ActorID))) throw new InvalidOperationException("Actor exists in a movie.");
+			if (context.MovieActors.Any(m => m.ActorID == ActorID)) throw new InvalidOperationException("Actor exists in a movie.");
 			context.Actors.Remove(actor);
 			context.SaveChanges();
 		}

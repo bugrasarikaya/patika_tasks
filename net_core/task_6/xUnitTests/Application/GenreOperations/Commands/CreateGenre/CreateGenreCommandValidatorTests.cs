@@ -1,6 +1,5 @@
 ﻿using FluentAssertions;
 using movie_store.Application.GenreOperations.Commands.CreateGenre;
-using movie_store.Entities;
 using xUnitTests.TestSetup;
 using static movie_store.Application.GenreOperations.Commands.CreateGenre.CreateGenreCommand;
 namespace xUnitTests.Application.GenreOperations.Commands.CreateGenre {
@@ -8,9 +7,9 @@ namespace xUnitTests.Application.GenreOperations.Commands.CreateGenre {
 		[Theory]
 		[InlineData("")]
 		[InlineData(" ")]
-		[InlineData("Thr")]
+		[InlineData("S")]
 		public void WhenInvalidInputAreGiven_Validator_ShoudlBeReturnErrors(string name) {
-			CreateGenreCommand command = new CreateGenreCommand(null);
+			CreateGenreCommand command = new CreateGenreCommand(null, null);
 			command.Model = new CreateGenreModel() { Name = name };
 			CreateGenreCommandValidator validator = new CreateGenreCommandValidator();
 			var result = validator.Validate(command);
@@ -18,8 +17,8 @@ namespace xUnitTests.Application.GenreOperations.Commands.CreateGenre {
 		}
 		[Fact]
 		public void WhenValidInputAreGiven_Validator_ShouldNotBeReturnError() {
-			CreateGenreCommand command = new CreateGenreCommand(null);
-			command.Model = new CreateGenreModel() { Name = "Thriller" };
+			CreateGenreCommand command = new CreateGenreCommand(null, null);
+			command.Model = new CreateGenreModel() { Name = "Sci-Fi" };
 			CreateGenreCommandValidator validator = new CreateGenreCommandValidator();
 			var result = validator.Validate(command);
 			result.Errors.Count.Should().Be(0);
