@@ -1,0 +1,4 @@
+A Visual Studio solution whose name is "task_7", was created and "task_6" solution's content was copied into "task_7".
+An attempt was started to convert "movie_store" project to "game_store" project.
+Converting process of "movie_store" project, was completed.
+While running all unit test, detected bugs were fixed.
