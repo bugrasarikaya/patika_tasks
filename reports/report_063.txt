@@ -1,0 +1,4 @@
+Names of custom log files, were changed to "reports".
+After reading a task of ".Net Core Projeleri" course [1] in Patika.dev, an ASP.NET Core Web App (Model-View-Controller) project whose name is "bill_management", was created into "C:\Users\bugra\Documents\GitHub\patika_tasks\net_core_projects" folder.
+Redundant newline usages were removed.
+[1] https://app.patika.dev/courses/net-core-projeleri/faturayonetimsistemi
